@@ -1,4 +1,4 @@
-*{ 
+* {
   margin: 0px;
   padding: 0px;
   border: 0;
@@ -24,13 +24,13 @@
 }
 
 .sub-navbar li a:hover {
-  color:#F72210;
+  color: #f72210;
 }
 
 .search-img {
   width: 25px;
   height: 25px;
-  background-image: url(	https://g.newsweek.com/www/images/icon-search-glass.svg);
+  background-image: url(https://g.newsweek.com/www/images/icon-search-glass.svg);
   background-position: center center;
   background-size: cover;
 }
@@ -113,4 +113,39 @@
 .details {
   border: 1px solid #e6e6e6;
   padding: 20px;
+}
+
+/***********NATA*****************/
+.small-container {
+  background-color: #f4f5f7;
+}
+
+.sm-v-section {
+  background-color: white;
+  padding: 20px;
+  margin-top: 20px;
+}
+
+/* TOP STORY SM */
+.top-story {
+  margin-top: 0;
+}
+
+/*THE DEBATE SM */
+.the-debate h4 {
+  border-bottom: rgba(3, 3, 3, 0.4) solid 3px;
+  padding-bottom: 10px;
+}
+
+.vs-section {
+  width: 93%;
+}
+
+.person-card img {
+  height: 60px;
+  margin: 10px;
+}
+
+.personal-details {
+  margin: 10px;
 }
