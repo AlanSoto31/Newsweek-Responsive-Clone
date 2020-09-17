@@ -1,0 +1,7 @@
+.wheather-img {
+    width: 20px;
+    height: 20px;
+    background-image: url(	https://g.newsweek.com/img/weather/26.png);
+    background-position: center center;
+    background-size: cover;
+}
