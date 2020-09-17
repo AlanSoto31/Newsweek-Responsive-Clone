@@ -1,7 +1,66 @@
 .wheather-img {
     width: 20px;
     height: 20px;
-    background-image: url(	https://g.newsweek.com/img/weather/26.png);
+    background-image: url(https://g.newsweek.com/img/weather/26.png);
     background-position: center center;
     background-size: cover;
+}
+
+.roboto {
+    font-family: 'Roboto Condensed', sans-serif;
+}
+
+
+
+.h-center {
+    margin-left: auto;
+    margin-right: auto;
+}
+
+
+.section-title {
+    color: rgba(3, 3, 3, .4);
+    width: 93%;
+    font-weight: 600;
+    font-size: 20px;
+}
+
+.title {
+    color: black;
+    font-weight: bold;
+    font-size: 20px;
+    line-height: 20px;
+    margin-top: 10px
+}
+
+.summary {
+    color: #333;
+    font-size: 13px;
+    line-height: 18px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.featured-story {
+    width: 93%;
+    margin-top: 25px;
+}
+
+.featured-story img {
+    width: 100%;
+    object-fit: cover;
+}
+
+.tag {
+    background-color: white;
+    padding: 5px 20px;
+    color: red;
+    position: absolute;
+    z-index: 1;
+    bottom: 0;
+    left: 0;
+    opacity: 80%;
+}
+
+.story-preview {
+    position: relative;
 }
