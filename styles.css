@@ -1,7 +1,36 @@
+*{ 
+  margin: 0px;
+  padding: 0px;
+  border: 0;
+  font-family: sans-serif;
+  list-style: none;
+  box-sizing: border-box;
+}
+
 .wheather-img {
   width: 20px;
   height: 20px;
   background-image: url(https://g.newsweek.com/img/weather/26.png);
+  background-position: center center;
+  background-size: cover;
+}
+
+.sub-navbar li a {
+  color: black;
+}
+
+.sub-navbar-2 li a {
+  color: gray;
+}
+
+.sub-navbar li a:hover {
+  color:#F72210;
+}
+
+.search-img {
+  width: 25px;
+  height: 25px;
+  background-image: url(	https://g.newsweek.com/www/images/icon-search-glass.svg);
   background-position: center center;
   background-size: cover;
 }
