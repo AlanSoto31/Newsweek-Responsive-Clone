@@ -260,9 +260,14 @@
 
 
 
+/*    ALAN     */
 
 .black {
   color: black;
+}
+
+.in-the-magazine-main-box {
+  width: 93%;
 }
 
 .itm-main-title-logo {
@@ -283,7 +288,7 @@ a {
   text-decoration: none !important;
 }
 
-.itm-img {
+.itm-img, .itm-img-1 {
   width: 100%;
   object-fit: cover;
 }
@@ -309,10 +314,19 @@ a {
 
 
 
-@media (min-width: 1024px) {
-  .navbar-main-title {
-    font-size: 80px;
-  }
 
-  /*1rem = 16px*/
+
+
+
+@media (min-width: 768px) {  
+  .itm-img {height: 178px;} 
+}
+
+@media (min-width: 1024px) {  
+  .navbar-main-title {font-size:80px;}
+  .itm-img {height: 215px;}   
+}
+
+@media (min-width: 1440px) {  
+  .itm-img {height: 300px;} 
 }
