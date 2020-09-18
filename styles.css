@@ -195,3 +195,62 @@
   width: 70%;
   margin-left: auto;
 }
+
+
+
+
+
+
+
+
+.black {
+  color: black;
+}
+
+.itm-main-title-logo {
+  width: 30px;
+  height: 30px;
+}
+
+.itm-btn {
+  background: #F4F5F6;
+  cursor: pointer;
+}
+
+.itm-btn:hover {
+  background: #DBDCDD;
+}
+
+a {
+  text-decoration: none !important;
+}
+
+.itm-img {
+  width: 100%;
+  object-fit: cover;
+}
+
+.itm-text-box p {
+  font-size: 13px;
+  background: #F72210;
+}
+
+.itm-text-box a{
+  color: #F72210;
+}
+
+.itm-text-box a:hover{
+  color: #F72210;
+}
+
+.itm-title:hover {
+  color: black;
+  text-decoration: underline !important;
+  text-decoration-color: #F72210 !important;
+}
+
+
+
+@media (min-width: 1024px) {  
+  .navbar-main-title {font-size:80px;} /*1rem = 16px*/    
+}
