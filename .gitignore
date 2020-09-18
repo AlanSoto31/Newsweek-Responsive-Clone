@@ -3,3 +3,4 @@ package.json
 .hintrc
 package-lock.json
 .stylelintrc.json
+.vscode

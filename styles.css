@@ -149,3 +149,49 @@
 .personal-details {
   margin: 10px;
 }
+
+.personal-details div {
+  margin: 10px;
+  font-size: 14px;
+}
+
+.the-debate .personal-details h5 {
+  margin: 10px;
+  font-size: 17px;
+}
+
+.gray-55 {
+  color: #555555;
+}
+
+.black {
+  color: black;
+}
+
+.versus-hr {
+  height: 5px;
+  border-top: solid #555555 1px;
+  border-bottom: solid #555555 1px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.versus-hr span {
+  position: absolute;
+  background-color: black;
+  color: white;
+  padding: 7px 10px;
+  border-radius: 50%;
+  left: 50%;
+}
+
+.versus-container {
+  position: relative;
+  height: 20px;
+}
+
+.sec-card {
+  width: 70%;
+  margin-left: auto;
+}
