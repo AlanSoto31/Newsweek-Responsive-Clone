@@ -44,6 +44,26 @@
   margin-right: auto;
 }
 
+.gray-33 {
+  columns: #333;
+}
+
+.fs-17 {
+  font-size: 17px;
+}
+
+.fs-13 {
+  font-size: 13px;
+}
+
+.as-center {
+  align-self: center;
+}
+
+.gray-bt {
+  border-top: solid #555555 1px;
+}
+
 .section-title {
   color: rgba(3, 3, 3, 0.4);
   width: 93%;
@@ -164,10 +184,6 @@
   color: #555555;
 }
 
-.black {
-  color: black;
-}
-
 .versus-hr {
   height: 5px;
   border-top: solid #555555 1px;
@@ -194,6 +210,48 @@
 .sec-card {
   width: 70%;
   margin-left: auto;
+}
+
+.opinions .person-card {
+  border-bottom: rgba(3, 3, 3, 0.4) solid 1px;
+}
+
+.opinions .personal-details div {
+  margin-left: 0;
+}
+
+/* MORE STORIES SM */
+.mstory-preview-s {
+  width: 93%;
+  padding-top: 15px;
+}
+
+.mstory-preview-s img {
+  height: 96px;
+}
+
+.story-summ-s {
+  margin-left: 15px;
+}
+
+.gray-33 {
+  columns: #333;
+}
+
+.fs-17 {
+  font-size: 17px;
+}
+
+.fs-13 {
+  font-size: 13px;
+}
+
+.as-center {
+  align-self: center;
+}
+
+.gray-bt {
+  border-top: solid #555555 1px;
 }
 
 
@@ -235,11 +293,11 @@ a {
   background: #F72210;
 }
 
-.itm-text-box a{
+.itm-text-box a {
   color: #F72210;
 }
 
-.itm-text-box a:hover{
+.itm-text-box a:hover {
   color: #F72210;
 }
 
@@ -251,6 +309,10 @@ a {
 
 
 
-@media (min-width: 1024px) {  
-  .navbar-main-title {font-size:80px;} /*1rem = 16px*/    
+@media (min-width: 1024px) {
+  .navbar-main-title {
+    font-size: 80px;
+  }
+
+  /*1rem = 16px*/
 }
