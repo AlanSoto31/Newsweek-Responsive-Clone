@@ -1,10 +1,14 @@
 * {
-  margin: 0px;
-  padding: 0px;
+  margin: 0;
+  padding: 0;
   border: 0;
   font-family: sans-serif;
   list-style: none;
   box-sizing: border-box;
+}
+
+a {
+  text-decoration: none !important;
 }
 
 .wheather-img {
@@ -13,18 +17,6 @@
   background-image: url(https://g.newsweek.com/img/weather/26.png);
   background-position: center center;
   background-size: cover;
-}
-
-.sub-navbar li a {
-  color: black;
-}
-
-.sub-navbar-2 li a {
-  color: gray;
-}
-
-.sub-navbar li a:hover {
-  color: #f72210;
 }
 
 .search-img {
@@ -44,9 +36,11 @@
   margin-right: auto;
 }
 
+/*
 .gray-33 {
   columns: #333;
 }
+*/
 
 .fs-17 {
   font-size: 17px;
@@ -61,7 +55,7 @@
 }
 
 .gray-bt {
-  border-top: solid #555555 1px;
+  border-top: solid #555 1px;
 }
 
 .section-title {
@@ -96,12 +90,6 @@
   object-fit: cover;
 }
 
-.publicity .featured-story img {
-  width: 100%;
-  height: 196px;
-  object-fit: cover;
-}
-
 .tag {
   background-color: white;
   padding: 5px 20px;
@@ -110,7 +98,7 @@
   z-index: 1;
   bottom: 0;
   left: 0;
-  opacity: 80%;
+  opacity: 0.8;
   font-weight: bold;
 }
 
@@ -123,7 +111,7 @@
   z-index: 1;
   bottom: 0;
   left: 0;
-  opacity: 80%;
+  opacity: 0.8;
 }
 
 .story-preview {
@@ -135,7 +123,7 @@
   padding: 20px;
 }
 
-/***********NATA*****************/
+/***********  NATA  *****************/
 .small-container {
   background-color: #f4f5f7;
 }
@@ -151,7 +139,7 @@
   margin-top: 0;
 }
 
-/*THE DEBATE SM */
+/* THE DEBATE SM */
 .the-debate h4 {
   border-bottom: rgba(3, 3, 3, 0.4) solid 3px;
   padding-bottom: 10px;
@@ -181,13 +169,13 @@
 }
 
 .gray-55 {
-  color: #555555;
+  color: #555;
 }
 
 .versus-hr {
   height: 5px;
-  border-top: solid #555555 1px;
-  border-bottom: solid #555555 1px;
+  border-top: solid #555 1px;
+  border-bottom: solid #555 1px;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -234,6 +222,7 @@
   margin-left: 15px;
 }
 
+/*
 .gray-33 {
   columns: #333;
 }
@@ -251,14 +240,17 @@
 }
 
 .gray-bt {
-  border-top: solid #555555 1px;
+  border-top: solid #555 1px;
 }
+*/
 
+/* position chaged  */
 
-
-
-
-
+.publicity .featured-story img {
+  width: 100%;
+  height: 196px;
+  object-fit: cover;
+}
 
 /*    ALAN     */
 
@@ -276,57 +268,60 @@
 }
 
 .itm-btn {
-  background: #F4F5F6;
+  background: #f4f5f6;
   cursor: pointer;
 }
 
 .itm-btn:hover {
-  background: #DBDCDD;
+  background: #dbdcdd;
 }
 
-a {
-  text-decoration: none !important;
-}
-
-.itm-img, .itm-img-1 {
+.itm-img,
+.itm-img-1 {
   width: 100%;
   object-fit: cover;
 }
 
 .itm-text-box p {
   font-size: 13px;
-  background: #F72210;
+  background: #f72210;
 }
 
 .itm-text-box a {
-  color: #F72210;
-}
-
-.itm-text-box a:hover {
-  color: #F72210;
+  color: #f72210;
 }
 
 .itm-title:hover {
   color: black;
   text-decoration: underline !important;
-  text-decoration-color: #F72210 !important;
+  text-decoration-color: #f72210 !important;
 }
 
-
-
-
-
-
-
-@media (min-width: 768px) {  
-  .itm-img {height: 178px;} 
+.sub-navbar li a {
+  color: black;
 }
 
-@media (min-width: 1024px) {  
-  .navbar-main-title {font-size:80px;}
-  .itm-img {height: 215px;}   
+.sub-navbar-2 li a {
+  color: gray;
 }
 
-@media (min-width: 1440px) {  
-  .itm-img {height: 300px;} 
+.sub-navbar li a:hover {
+  color: #f72210;
+}
+
+.itm-text-box a:hover {
+  color: #f72210;
+}
+
+@media (min-width: 768px) {
+  .itm-img { height: 178px; }
+}
+
+@media (min-width: 1024px) {
+  .navbar-main-title { font-size: 80px; }
+  .itm-img { height: 215px; }
+}
+
+@media (min-width: 1440px) {
+  .itm-img { height: 300px; }
 }
