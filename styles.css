@@ -227,6 +227,37 @@ a {
   overflow: hidden;
 }
 
+/*MEDIUM*/
+/* MY TURN*/
+.mstory-preview-m {
+  line-height: 20px;
+}
+
+.sec-card {
+  width: 70%;
+  margin-left: auto;
+  border-bottom: rgba(3, 3, 3, 0.4) solid 3px;
+  justify-content: flex-end;
+}
+
+.my-turn-preview-m .story-preview span {
+  padding: 0 5px;
+}
+
+.mstory-preview-lg {
+  display: inline-block;
+}
+
+.mstory-preview-lg img {
+  height: 96px;
+  float: left;
+  margin-right: 8px;
+}
+
+.substory {
+  display: inline-block;
+}
+
 /*    ALAN     */
 
 .black {
@@ -328,5 +359,4 @@ a {
   .ep-img {
     height: 194px;
   }
-
 }
