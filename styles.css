@@ -90,6 +90,12 @@ a {
   object-fit: cover;
 }
 
+.publicity .featured-story img {
+  width: 100%;
+  height: 196px;
+  object-fit: cover;
+}
+
 .tag {
   background-color: white;
   padding: 5px 20px;
@@ -244,25 +250,17 @@ a {
 }
 */
 
-/* position chaged  */
-
-.publicity .featured-story img {
-  width: 100%;
-  height: 196px;
-  object-fit: cover;
-}
-
 /*    ALAN     */
 
 .black {
   color: black;
 }
 
-.in-the-magazine-main-box {
+.in-the-magazine-main-box, .editors-pick-main-box {
   width: 93%;
 }
 
-.itm-main-title-logo {
+.main-title-logo {
   width: 30px;
   height: 30px;
 }
@@ -297,6 +295,8 @@ a {
   text-decoration-color: #f72210 !important;
 }
 
+/* position chaged  */
+
 .sub-navbar li a {
   color: black;
 }
@@ -309,8 +309,8 @@ a {
   color: #f72210;
 }
 
-.itm-text-box a:hover {
-  color: #f72210;
+.itm-text-box a, .editors-text-box a {
+  color: #F72210;
 }
 
 @media (min-width: 768px) {
