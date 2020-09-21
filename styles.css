@@ -40,11 +40,17 @@ a {
   width: 93%;
 }
 
-/*
-.gray-33 {
-  columns: #333;
+.marg-10 {
+  margin: 10px;
 }
-*/
+
+.bc-white {
+  background-color: white;
+}
+
+.gray-33 {
+  color: #333;
+}
 
 .fs-17 {
   font-size: 17px;
@@ -64,13 +70,11 @@ a {
 
 .section-title {
   color: rgba(3, 3, 3, 0.4);
-  width: 93%;
   font-weight: 600;
   font-size: 20px;
 }
 
 .title {
-  color: black;
   font-weight: bold;
   font-size: 20px;
   line-height: 20px;
@@ -79,13 +83,11 @@ a {
 
 .summary {
   color: #333;
-  font-size: 13px;
   line-height: 18px;
   font-family: Arial, Helvetica, sans-serif;
 }
 
 .featured-story {
-  width: 93%;
   margin-top: 25px;
 }
 
@@ -101,7 +103,6 @@ a {
 }
 
 .tag {
-  background-color: white;
   padding: 5px 20px;
   color: red;
   position: absolute;
@@ -115,7 +116,6 @@ a {
 .sponsored-tag {
   color: #3581f4;
   font-weight: bold;
-  background-color: white;
   padding: 5px 20px;
   position: absolute;
   z-index: 1;
@@ -139,7 +139,6 @@ a {
 }
 
 .sm-v-section {
-  background-color: white;
   padding: 20px;
   margin-top: 20px;
 }
@@ -155,26 +154,15 @@ a {
   padding-bottom: 10px;
 }
 
-.vs-section {
-  width: 93%;
-}
-
 .person-card img {
   height: 60px;
-  margin: 10px;
-}
-
-.personal-details {
-  margin: 10px;
 }
 
 .personal-details div {
-  margin: 10px;
   font-size: 14px;
 }
 
 .the-debate .personal-details h5 {
-  margin: 10px;
   font-size: 17px;
 }
 
@@ -220,49 +208,19 @@ a {
 
 /* MORE STORIES SM */
 .mstory-preview-s {
-  width: 93%;
   padding-top: 15px;
 }
 
 .mstory-preview-s img {
   height: 96px;
+  float: left;
+  margin-right: 8px;
 }
-
-.story-summ-s {
-  margin-left: 15px;
-}
-
-/*
-.gray-33 {
-  columns: #333;
-}
-
-.fs-17 {
-  font-size: 17px;
-}
-
-.fs-13 {
-  font-size: 13px;
-}
-
-.as-center {
-  align-self: center;
-}
-
-.gray-bt {
-  border-top: solid #555 1px;
-}
-*/
 
 /*    ALAN     */
 
 .black {
   color: black;
-}
-
-.in-the-magazine-main-box,
-.editors-pick-main-box {
-  width: 93%;
 }
 
 .main-title-logo {
@@ -286,7 +244,6 @@ a {
 }
 
 .itm-text-box p {
-  font-size: 13px;
   background: #f72210;
 }
 
