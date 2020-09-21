@@ -60,6 +60,10 @@ a {
   font-size: 13px;
 }
 
+.fs-22 {
+  font-size: 22px;
+}
+
 .as-center {
   align-self: center;
 }
@@ -245,7 +249,8 @@ a {
 
 .itm-img,
 .itm-img-1,
-.ep-img {
+.ep-img,
+.bigs-img {
   width: 100%;
   object-fit: cover;
 }
@@ -262,6 +267,12 @@ a {
   color: black;
   text-decoration: underline !important;
   text-decoration-color: #f72210 !important;
+}
+
+.smalls-img {
+  height: 95px;
+  width: 95px;
+  object-fit: cover;
 }
 
 /* position chaged  */
