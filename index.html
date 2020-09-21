@@ -1,777 +1,148 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="stylesheet" href="styles.css" />
-    <link
-      href="https://fonts.googleapis.com/css2?family=Roboto+Condensed:wght@300;400&display=swap"
-      rel="stylesheet"
-    />
-    <link
-      rel="stylesheet"
-      href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css"
-      integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z"
-      crossorigin="anonymous"
-    />
-    <script
-      src="https://kit.fontawesome.com/d6bf1861cd.js"
-      crossorigin="anonymous"
-    ></script>
-    <title>Document</title>
-  </head>
 
-  <body>
-    <!-- NAVBAR -->
-    <nav>
-      <div
-        class="navbar bg-danger d-flex align-items-center justify-content-between py-0"
-      >
-        <div class="d-none d-lg-block text-white">
-          <a class="d-flex align-items-center text-decoration-none" href="#">
-            <div class="wheather-img"></div>
-            <span class="text-white ml-2">23*</span
-            ><span class="text-white ml-3">Saltillo,MX</span
-            ><i class="fas fa-chevron-right text-white ml-1"></i>
-          </a>
-          <p class="mt-2 mb-0">Thu, Sep 17, 2020</p>
-        </div>
-        <a class="nav-link text-white p-0 m-0" href="#">
-          <h3 class="navbar-main-title p-0 m-0">Newsweek</h3>
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link rel="stylesheet" href="styles.css" />
+  <link href="https://fonts.googleapis.com/css2?family=Roboto+Condensed:wght@300;400&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css"
+    integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous" />
+  <script src="https://kit.fontawesome.com/d6bf1861cd.js" crossorigin="anonymous"></script>
+  <title>Document</title>
+</head>
+
+<body>
+  <!-- NAVBAR -->
+  <nav>
+    <div class="navbar bg-danger d-flex align-items-center justify-content-between py-0">
+      <div class="d-none d-lg-block text-white">
+        <a class="d-flex align-items-center text-decoration-none" href="#">
+          <div class="wheather-img"></div>
+          <span class="text-white ml-2">23*</span><span class="text-white ml-3">Saltillo,MX</span><i
+            class="fas fa-chevron-right text-white ml-1"></i>
         </a>
-        <div class="d-flex align-items-center justify-content-between my-3">
-          <a
-            class="nav-link text-light p-0 d-md-none d-lg-none d-xl-none"
-            href="#"
-            ><i class="fas fa-user"></i
-          ></a>
-          <a class="nav-link text-light d-none d-sm-none d-md-block" href="#"
-            >LOGIN</a
-          >
-          <a
-            class="nav-link badge badge-sm badge-pill badge-warning mx-0 p-2 mx-2"
-            href="#"
-            >SUBSCRIBE<i class="fas fa-chevron-right ml-1"></i
-          ></a>
-          <a class="nav-link text-light p-0" href="#"
-            ><i class="fas fa-bars"></i
-          ></a>
-        </div>
+        <p class="mt-2 mb-0">Thu, Sep 17, 2020</p>
       </div>
-      <div class="sub-navbar-1-box overflow-auto p-0 my-0 d-none d-lg-block">
-        <ul
-          class="sub-navbar-1 sub-navbar list-group list-group-horizontal font-weight-bold float-left my-2"
-        >
-          <li>
-            <a
-              class="list-group-item py-1 px-2 border-bottom-0 border-top-0 border-left-0 text-decoration-none"
-              href="#"
-              >U.S.</a
-            >
-          </li>
-          <li>
-            <a
-              class="list-group-item py-1 px-2 border-bottom-0 border-top-0 border-left-0 text-decoration-none"
-              href="#"
-              >World</a
-            >
-          </li>
-          <li>
-            <a
-              class="list-group-item py-1 px-2 border-bottom-0 border-top-0 border-left-0 text-decoration-none"
-              href="#"
-              >Bussines</a
-            >
-          </li>
-          <li>
-            <a
-              class="list-group-item py-1 px-2 border-bottom-0 border-top-0 border-left-0 text-decoration-none"
-              href="#"
-              >Tech and Science</a
-            >
-          </li>
-          <li>
-            <a
-              class="list-group-item py-1 px-2 border-bottom-0 border-top-0 border-left-0 text-decoration-none"
-              href="#"
-              >Culture</a
-            >
-          </li>
-          <li>
-            <a
-              class="list-group-item py-1 px-2 border-bottom-0 border-top-0 border-left-0 text-decoration-none"
-              href="#"
-              >Newsgeek</a
-            >
-          </li>
-          <li>
-            <a
-              class="list-group-item py-1 px-2 border-bottom-0 border-top-0 border-left-0 text-decoration-none"
-              href="#"
-              >Health</a
-            >
-          </li>
-          <li>
-            <a
-              class="list-group-item py-1 px-2 border-bottom-0 border-top-0 border-left-0 text-decoration-none"
-              href="#"
-              >The Debate</a
-            >
-          </li>
-          <li>
-            <a
-              class="list-group-item py-1 px-2 border-bottom-0 border-top-0 border-left-0 text-decoration-none"
-              href="#"
-              >Vantage</a
-            >
-          </li>
-          <li>
-            <a
-              class="list-group-item py-1 px-2 border-bottom-0 border-top-0 border-left-0 text-decoration-none"
-              href="#"
-              >Weather</a
-            >
-          </li>
-        </ul>
-        <div class="d-inline-block mt-1">
-          <span class="font-weight-light align-middle">Search</span>
-          <div class="search-img ml-3 d-inline-block align-middle"></div>
-        </div>
-      </div>
-      <hr class="m-0" />
-      <div class="sub-navbar-2-box d-none d-lg-block">
-        <ul
-          class="sub-navbar-2 sub-navbar list-group list-group-horizontal my-2 font-weight-bold"
-        >
-          <li>
-            <span
-              class="list-group-item py-1 px-3 border-0 text-decoration-none text-black"
-              >TRENDING</span
-            >
-          </li>
-          <li>
-            <a
-              class="list-group-item py-1 px-3 border-0 text-decoration-none"
-              href="#"
-              >DONALD TRUMP</a
-            >
-          </li>
-          <li>
-            <a
-              class="list-group-item py-1 px-3 border-0 text-decoration-none"
-              href="#"
-              >JOE BIDEN</a
-            >
-          </li>
-          <li>
-            <a
-              class="list-group-item py-1 px-3 border-0 text-decoration-none"
-              href="#"
-              >CHINA</a
-            >
-          </li>
-          <li>
-            <a
-              class="list-group-item py-1 px-3 border-0 text-decoration-none"
-              href="#"
-              >CORONAVIRUS</a
-            >
-          </li>
-          <li>
-            <a
-              class="list-group-item py-1 px-3 border-0 text-decoration-none"
-              href="#"
-              >2020 ELECTION</a
-            >
-          </li>
-        </ul>
-      </div>
-      <hr class="m-0" />
-    </nav>
-
-    <!-- sm version -->
-    <div class="row d-md-none">
-      <div class="col small-container">
-        <!-- TOP STORY -->
-        <div class="col top-story sm-v-section">
-          <h4 class="h-center section-title roboto">TOP STORY</h4>
-          <div class="featured-story h-center">
-            <div class="story-preview">
-              <img
-                src="https://d.newsweek.com/en/full/1638307/anti-racism-protest.jpg?w=591&h=364&f=15bdfa6f8c637bc68db65e7daa5268ef"
-                alt="image"
-              />
-              <span class="tag roboto">WORL</span>
-            </div>
-            <a class="title" href="#">
-              <h5 class="title roboto">
-                The ethnicity pay gap "is costing the British economy as much as
-                £24 billion ($31 billion) a year."
-              </h5>
-            </a>
-            <p class="summary">
-              Multiple YouTubers have tried to raise awareness of the forum in
-              recent weeks, urging their viewers to report the platform's known
-              web domains to law enforcement authorities.
-            </p>
-          </div>
-        </div>
-        <!-- FEATURED STORIES -->
-        <div class="col featured-stories sm-v-section">
-          <h4 class="h-center section-title roboto">Featured Stories</h4>
-          <div class="featured-story h-center">
-            <div class="story-preview">
-              <img
-                src="https://d.newsweek.com/en/full/1638489/lafayette.jpg?w=397&h=265&q=90&f=4f819f807713f8eded1170346496f538"
-                alt="image"
-              />
-              <span class="tag roboto">U.S</span>
-            </div>
-            <a class="title" href="#">
-              <h5 class="title roboto">
-                Trump Admin Wanted to Use 'Heat Ray' on Protesters
-              </h5>
-            </a>
-            <p class="summary">
-              A military whistleblower said federal officials asked about crowd
-              control technology hours before protesters were forcibly cleared
-              from Lafayette Square in Washington, D.C.
-            </p>
-          </div>
-          <div class="featured-story h-center">
-            <div class="story-preview">
-              <img
-                src="https://d.newsweek.com/en/full/1638518/blm-white-protester.jpg?w=397&h=265&q=90&f=5cac0adcbec42d689d1dcda34beecc1b"
-                alt="image"
-              />
-              <span class="tag roboto">U.S</span>
-            </div>
-            <a class="title" href="#">
-              <h5 class="title roboto">
-                Number of White Adults Who Think U.S. Has Race Problem Plummets
-              </h5>
-            </a>
-            <p class="summary">
-              As protests continue across the country against racial injustice
-              and police violence, a new poll shows that the number of overall
-              adults, white adults, and practising Christians who say that race
-              is a problem in the U.S has decreased.
-            </p>
-          </div>
-          <div class="featured-story h-center">
-            <div class="story-preview">
-              <img
-                src="	https://d.newsweek.com/en/full/1635416/cuties-netflix.png?w=397&h=265&l=53&t=42&q=90&f=8cdf6202bcc98acac5580a9504efaadb"
-                alt="image"
-              />
-              <span class="tag roboto">CULTURE</span>
-            </div>
-            <a class="title" href="#">
-              <h5 class="title roboto">
-                'Cuties' on Netflix Causes Huge Spike in Netflix Cancelations
-              </h5>
-            </a>
-            <p class="summary">
-              "Cuties" may still be one of the top 5 most-watched Netflix
-              movies, but it has also caused some people to cancel their
-              subscriptions according to a new report.
-            </p>
-          </div>
-          <div class="featured-story h-center">
-            <div class="story-preview">
-              <img
-                src="	https://d.newsweek.com/en/full/1638617/joe-biden-endorsement-ncpssm.jpg?w=397&h=265&q=90&f=bc5b109d6072e5bec62c4994be1d764f"
-                alt="image"
-              />
-              <span class="tag roboto">U.S</span>
-            </div>
-            <a class="title" href="#">
-              <h5 class="title roboto">
-                Fearing for Social Security, National Seniors' Group Endorses
-                Biden
-              </h5>
-            </a>
-            <p class="summary">
-              This is the first time that the National Committee to Preserve
-              Social Security and Medicare (NCPSSM), which was founded by the
-              late son of President Franklin Delano Roosevelt, has ever endorsed
-              a candidate for president.
-            </p>
-          </div>
-          <div class="featured-story h-center">
-            <div class="story-preview">
-              <img
-                src="https://d.newsweek.com/en/full/1638581/stock-man-seated-front-computer.jpg?w=397&h=265&q=90&f=3ccbb6ca275c614340c99a9a0367319d"
-                alt="image"
-              />
-              <span class="tag roboto">TECH & SCIENCE</span>
-            </div>
-            <a class="title" href="#">
-              <h5 class="title roboto">
-                Petition Calls for FBI to Investigate Active Pedophile Forum
-                Found Online
-              </h5>
-            </a>
-            <p class="summary">
-              Multiple YouTubers have tried to raise awareness of the forum in
-              recent weeks, urging their viewers to report the platform's known
-              web domains to law enforcement authorities.
-            </p>
-          </div>
-        </div>
-        <!-- THE DEBATE -->
-        <div class="col the-debate sm-v-section">
-          <h4 class="h-center section-title roboto">THE DEBATE</h4>
-          <div class="vs-section h-center">
-            <div class="person-card d-flex">
-              <img
-                src="	https://d.newsweek.com/en/full/1635852/jamil-n-jaffer.png?w=150&h=150&f=ee5b9c2a7934dd91670a659078f9bbea"
-                alt="image"
-              />
-              <div class="personal-details">
-                <h5 class="font-weight-bold roboto">
-                  The Best (Cyber) Defense Is a Good (Cyber) Offense
-                </h5>
-                <div class="roboto gray-55">
-                  BY
-                  <span class="roboto font-weight-bold black"
-                    >JAMIN N.JAFFER</span
-                  >
-                </div>
-              </div>
-            </div>
-            <div class="versus-container">
-              <div class="black versus-hr">
-                <span class="roboto">VS</span>
-              </div>
-            </div>
-            <div class="person-card sec-card d-flex">
-              <div class="personal-details text-right">
-                <h5 class="font-weight-bold roboto">
-                  The Best (Cyber) Defense Is a Good (Cyber) Offense
-                </h5>
-                <div class="roboto gray-55">
-                  BY
-                  <span class="roboto font-weight-bold black"
-                    >JAMIN N.JAFFER</span
-                  >
-                </div>
-              </div>
-              <img
-                src="	https://d.newsweek.com/en/full/1635852/jamil-n-jaffer.png?w=150&h=150&f=ee5b9c2a7934dd91670a659078f9bbea"
-                alt="image"
-              />
-            </div>
-          </div>
-        </div>
-        <!-- OPINIONS -->
-        <div class="col opinions sm-v-section">
-          <h4 class="h-center section-title roboto">THE DEBATE</h4>
-          <div class="person-card d-flex">
-            <img
-              src="	https://d.newsweek.com/en/full/1635852/jamil-n-jaffer.png?w=150&h=150&f=ee5b9c2a7934dd91670a659078f9bbea"
-              alt="image"
-            />
-            <div class="personal-details">
-              <h5 class="font-weight-bold roboto">
-                The Best (Cyber) Defense Is a Good (Cyber) Offense
-              </h5>
-              <div class="roboto gray-55 font-weight-bold">
-                BY
-                <span class="roboto gray-55 font-weight-bold"
-                  >JAMIN N.JAFFER</span
-                >
-              </div>
-            </div>
-          </div>
-          <div class="person-card d-flex">
-            <img
-              src="	https://d.newsweek.com/en/full/1635852/jamil-n-jaffer.png?w=150&h=150&f=ee5b9c2a7934dd91670a659078f9bbea"
-              alt="image"
-            />
-            <div class="personal-details">
-              <h5 class="font-weight-bold roboto">
-                You Don't Have to Be a Democrat to See the Wildfires for What
-                They Are
-              </h5>
-              <div class="roboto gray-55 font-weight-bold">
-                BY
-                <span class="roboto gray-55 font-weight-bold">TODD TANNER</span>
-              </div>
-            </div>
-          </div>
-          <div class="person-card d-flex">
-            <img
-              src="	https://d.newsweek.com/en/full/1635852/jamil-n-jaffer.png?w=150&h=150&f=ee5b9c2a7934dd91670a659078f9bbea"
-              alt="image"
-            />
-            <div class="personal-details">
-              <h5 class="font-weight-bold roboto">
-                For the Sake of Transatlantic Security, Stop Nord Stream 2
-              </h5>
-              <div class="roboto gray-55 font-weight-bold">
-                BY
-                <span class="roboto gray-55 font-weight-bold"
-                  >114 SIGNATORIES</span
-                >
-              </div>
-            </div>
-          </div>
-          <div class="person-card d-flex">
-            <img
-              src="	https://d.newsweek.com/en/full/1635852/jamil-n-jaffer.png?w=150&h=150&f=ee5b9c2a7934dd91670a659078f9bbea"
-              alt="image"
-            />
-            <div class="personal-details">
-              <h5 class="font-weight-bold roboto">Save Our American System</h5>
-              <div class="roboto gray-55 font-weight-bold">
-                BY
-                <span class="roboto gray-55 font-weight-bold">JENNA ELLIS</span>
-              </div>
-            </div>
-          </div>
-          <div class="person-card d-flex">
-            <img
-              src="	https://d.newsweek.com/en/full/1635852/jamil-n-jaffer.png?w=150&h=150&f=ee5b9c2a7934dd91670a659078f9bbea"
-              alt="image"
-            />
-            <div class="personal-details">
-              <h5 class="font-weight-bold roboto">
-                Kevin McCarthy and the House Republican Commitment to America
-              </h5>
-              <div class="roboto gray-55 font-weight-bold">
-                BY
-                <span class="roboto gray-55 font-weight-bold"
-                  >NEWT GINGRICHR</span
-                >
-              </div>
-            </div>
-          </div>
-          <div class="person-card d-flex">
-            <img
-              src="	https://d.newsweek.com/en/full/1635852/jamil-n-jaffer.png?w=150&h=150&f=ee5b9c2a7934dd91670a659078f9bbea"
-              alt="image"
-            />
-            <div class="personal-details">
-              <h5 class="font-weight-bold roboto">
-                How the Democratic Party Can Win Back the Trump Base
-              </h5>
-              <div class="roboto gray-55 font-weight-bold">
-                BY
-                <span class="roboto gray-55 font-weight-bold"
-                  >ARTHUR LIEBER</span
-                >
-              </div>
-            </div>
-          </div>
-        </div>
-        <!-- PUBLICITY -->
-        <div class="col publicity-s sm-v-section">
-          <div class="publicity">
-            <div class="featured-story h-center">
-              <div class="story-preview">
-                <img
-                  src="./assets/images/best-online-shops-2021.jpg"
-                  alt="image"
-                />
-                <span class="sponsored-tag roboto">RANKINGS</span>
-              </div>
-              <div class="details">
-                <a class="title" href="#">
-                  <h5 class="title roboto">Best Online Shops 2021</h5>
-                </a>
-                <p class="summary">
-                  Newsweek and Statista are recognizing 1,000 shops across 39
-                  categories in eight groups.
-                </p>
-              </div>
-            </div>
-            <div class="featured-story h-center">
-              <div class="story-preview">
-                <img
-                  src="./assets/images/americas-best-physical-rehabilitation-centers-2020.jpg"
-                  alt="image"
-                />
-                <span class="sponsored-tag roboto">RANKINGS</span>
-              </div>
-              <div class="details">
-                <a class="title" href="#">
-                  <h5 class="title roboto">
-                    America's Best Physical Rehabilitation Centers 2020
-                  </h5>
-                </a>
-                <p class="summary">
-                  Finding reliable rehabilitation can be a challenge. We
-                  partnered with Statista to rank the country's Best Physical
-                  Rehabilitation Centers.
-                </p>
-              </div>
-            </div>
-            <div class="featured-story h-center">
-              <div class="story-preview">
-                <img
-                  src="./assets/images/best-maternity-care-hospitals-2020.jpg"
-                  alt="image"
-                />
-                <span class="sponsored-tag roboto">TAKE THE SURVEY</span>
-              </div>
-              <div class="details">
-                <a class="title" href="#">
-                  <h5 class="title roboto">
-                    What Brands do You Trust the Most?
-                  </h5>
-                </a>
-                <p class="summary">
-                  Tell us for a chance to win. 2020 Brandspark Most Trusted
-                  Awards. Voted by consumers like you.
-                </p>
-              </div>
-            </div>
-            <div class="featured-story h-center">
-              <div class="story-preview">
-                <img
-                  src="./assets/images/best-online-shops-2021.jpg"
-                  alt="image"
-                />
-                <span class="sponsored-tag roboto">RANKINGS</span>
-              </div>
-              <div class="details"></div>
-              <a class="title" href="#">
-                <h5 class="title roboto">Best Maternity Hospitals 2020</h5>
-              </a>
-              <p class="summary">
-                The facilities cited by Newsweek are an elite group
-                demonstrating excellence in maternity care. Check the full list
-                here
-              </p>
-            </div>
-          </div>
-        </div>
-        <!-- MORE STORIES -->
-        <div class="col more-stories-s sm-v-section">
-          <h4 class="h-center section-title roboto">MORE STORIES</h4>
-          <div class="mstory-preview-s d-flex h-center gray-bt">
-            <img
-              src="https://d.newsweek.com/en/full/1638889/biden-obama.jpg?w=95&h=95&f=150feb4010c47e3f031cc05c8fd07ffe"
-              alt="image"
-            />
-            <div class="story-summ-s">
-              <a class="font-weight-bold roboto black fs-17">
-                Obama Book Coming Post-Election Saves Former President
-                Overshadowing Biden
-              </a>
-              <p class="gray-33 fs-13">
-                The first volume of the former president's upcoming memoir is
-                due to be released two weeks after election day.
-              </p>
-            </div>
-          </div>
-          <div class="mstory-preview-s d-flex h-center gray-bt">
-            <img
-              src="https://d.newsweek.com/en/full/1638889/biden-obama.jpg?w=95&h=95&f=150feb4010c47e3f031cc05c8fd07ffe"
-              alt="image"
-            />
-            <div class="story-summ-s">
-              <a class="font-weight-bold roboto black fs-17">
-                Obama Book Coming Post-Election Saves Former President
-                Overshadowing Biden
-              </a>
-              <p class="gray-33 fs-13">
-                The first volume of the former president's upcoming memoir is
-                due to be released two weeks after election day.
-              </p>
-            </div>
-          </div>
-          <div class="mstory-preview-s d-flex h-center gray-bt">
-            <img
-              src="https://d.newsweek.com/en/full/1638889/biden-obama.jpg?w=95&h=95&f=150feb4010c47e3f031cc05c8fd07ffe"
-              alt="image"
-            />
-            <div class="story-summ-s">
-              <a class="font-weight-bold roboto black fs-17">
-                Obama Book Coming Post-Election Saves Former President
-                Overshadowing Biden
-              </a>
-              <p class="gray-33 fs-13">
-                The first volume of the former president's upcoming memoir is
-                due to be released two weeks after election day.
-              </p>
-            </div>
-          </div>
-          <div class="mstory-preview-s d-flex h-center gray-bt">
-            <img
-              src="https://d.newsweek.com/en/full/1638889/biden-obama.jpg?w=95&h=95&f=150feb4010c47e3f031cc05c8fd07ffe"
-              alt="image"
-            />
-            <div class="story-summ-s">
-              <a class="font-weight-bold roboto black fs-17">
-                Obama Book Coming Post-Election Saves Former President
-                Overshadowing Biden
-              </a>
-              <p class="gray-33 fs-13">
-                The first volume of the former president's upcoming memoir is
-                due to be released two weeks after election day.
-              </p>
-            </div>
-          </div>
-          <div class="mstory-preview-s d-flex h-center gray-bt">
-            <img
-              src="https://d.newsweek.com/en/full/1638889/biden-obama.jpg?w=95&h=95&f=150feb4010c47e3f031cc05c8fd07ffe"
-              alt="image"
-            />
-            <div class="story-summ-s">
-              <a class="font-weight-bold roboto black fs-17">
-                Obama Book Coming Post-Election Saves Former President
-                Overshadowing Biden
-              </a>
-              <p class="gray-33 fs-13">
-                The first volume of the former president's upcoming memoir is
-                due to be released two weeks after election day.
-              </p>
-            </div>
-          </div>
-          <div class="mstory-preview-s d-flex h-center gray-bt">
-            <img
-              src="https://d.newsweek.com/en/full/1638889/biden-obama.jpg?w=95&h=95&f=150feb4010c47e3f031cc05c8fd07ffe"
-              alt="image"
-            />
-            <div class="story-summ-s">
-              <a class="font-weight-bold roboto black fs-17">
-                Obama Book Coming Post-Election Saves Former President
-                Overshadowing Biden
-              </a>
-              <p class="gray-33 fs-13">
-                The first volume of the former president's upcoming memoir is
-                due to be released two weeks after election day.
-              </p>
-            </div>
-          </div>
-          <div class="mstory-preview-s d-flex h-center gray-bt">
-            <img
-              src="https://d.newsweek.com/en/full/1638889/biden-obama.jpg?w=95&h=95&f=150feb4010c47e3f031cc05c8fd07ffe"
-              alt="image"
-            />
-            <div class="story-summ-s">
-              <a class="font-weight-bold roboto black fs-17">
-                Obama Book Coming Post-Election Saves Former President
-                Overshadowing Biden
-              </a>
-              <p class="gray-33 fs-13">
-                The first volume of the former president's upcoming memoir is
-                due to be released two weeks after election day.
-              </p>
-            </div>
-          </div>
-          <div class="mstory-preview-s d-flex h-center gray-bt">
-            <img
-              src="https://d.newsweek.com/en/full/1638889/biden-obama.jpg?w=95&h=95&f=150feb4010c47e3f031cc05c8fd07ffe"
-              alt="image"
-            />
-            <div class="story-summ-s">
-              <a class="font-weight-bold roboto black fs-17">
-                Obama Book Coming Post-Election Saves Former President
-                Overshadowing Biden
-              </a>
-              <p class="gray-33 fs-13">
-                The first volume of the former president's upcoming memoir is
-                due to be released two weeks after election day.
-              </p>
-            </div>
-          </div>
-          <div class="mstory-preview-s d-flex h-center gray-bt">
-            <img
-              src="https://d.newsweek.com/en/full/1638889/biden-obama.jpg?w=95&h=95&f=150feb4010c47e3f031cc05c8fd07ffe"
-              alt="image"
-            />
-            <div class="story-summ-s">
-              <a class="font-weight-bold roboto black fs-17">
-                Obama Book Coming Post-Election Saves Former President
-                Overshadowing Biden
-              </a>
-              <p class="gray-33 fs-13">
-                The first volume of the former president's upcoming memoir is
-                due to be released two weeks after election day.
-              </p>
-            </div>
-          </div>
-          <div class="mstory-preview-s d-flex h-center gray-bt">
-            <img
-              src="https://d.newsweek.com/en/full/1638889/biden-obama.jpg?w=95&h=95&f=150feb4010c47e3f031cc05c8fd07ffe"
-              alt="image"
-            />
-            <div class="story-summ-s">
-              <a class="font-weight-bold roboto black fs-17">
-                Obama Book Coming Post-Election Saves Former President
-                Overshadowing Biden
-              </a>
-              <p class="gray-33 fs-13">
-                The first volume of the former president's upcoming memoir is
-                due to be released two weeks after election day.
-              </p>
-            </div>
-          </div>
-          <div class="mstory-preview-s d-flex h-center gray-bt">
-            <img
-              src="https://d.newsweek.com/en/full/1638889/biden-obama.jpg?w=95&h=95&f=150feb4010c47e3f031cc05c8fd07ffe"
-              alt="image"
-            />
-            <div class="story-summ-s">
-              <a class="font-weight-bold roboto black fs-17">
-                Obama Book Coming Post-Election Saves Former President
-                Overshadowing Biden
-              </a>
-              <p class="gray-33 fs-13">
-                The first volume of the former president's upcoming memoir is
-                due to be released two weeks after election day.
-              </p>
-            </div>
-          </div>
-        </div>
-        <!-- MY TURN -->
-        <div class="col my-turn-s sm-v-section">
-          <h4 class="h-center section-title roboto">MY TURN</h4>
-          <div class="my-turn-preview-s">
-            <img
-              src="	https://d.newsweek.com/en/full/1638516/restaurant-airplane-food-aviation.jpg?w=397&h=397&f=75ee33b1891cde2e809dbedf8d6c6755"
-              alt="image"
-            />
-            <p class="roboto font-weight-bold gray-55">
-              'I Built a Restaurant Inside a Boeing KC-97 U.S. Air Force
-              Aircraft'
-            </p>
-          </div>
-          <div class="my-turn-preview-s">
-            <img
-              src="		https://d.newsweek.com/en/full/1637610/sapiosexuality-relationships-dating.jpg?w=397&h=397&f=a7ea46aff9ee03225f6f068558042209"
-              alt="image"
-            />
-            <p class="roboto font-weight-bold gray-55">
-              "This Is What It's Like to Be Sapiosexual"'
-            </p>
-          </div>
-          <div class="my-turn-preview-s">
-            <img
-              src="https://d.newsweek.com/en/full/1635953/covid-19-coronavirus-vaccine-doctor-trials.jpg?w=397&h=397&f=fbfae1b3743093ddcbe1cbfaba754dfa"
-              alt="image"
-            />
-            <p class="roboto font-weight-bold gray-55">
-              'I'm Working on a COVID-19 Vaccine'
-            </p>
-          </div>
-        </div>
+      <a class="nav-link text-white p-0 m-0" href="#">
+        <h3 class="navbar-main-title p-0 m-0">Newsweek</h3>
+      </a>
+      <div class="d-flex align-items-center justify-content-between my-3">
+        <a class="nav-link text-light p-0 d-md-none d-lg-none d-xl-none" href="#"><i class="fas fa-user"></i></a>
+        <a class="nav-link text-light d-none d-sm-none d-md-block" href="#">LOGIN</a>
+        <a class="nav-link badge badge-sm badge-pill badge-warning mx-0 p-2 mx-2" href="#">SUBSCRIBE<i
+            class="fas fa-chevron-right ml-1"></i></a>
+        <a class="nav-link text-light p-0" href="#"><i class="fas fa-bars"></i></a>
       </div>
     </div>
-    <!-- m&lg version -->
-    <div class="row d-none d-md-block">
+    <div class="sub-navbar-1-box overflow-auto p-0 my-0 d-none d-lg-block">
+      <ul class="sub-navbar-1 sub-navbar list-group list-group-horizontal font-weight-bold float-left my-2">
+        <li>
+          <a class="list-group-item py-1 px-2 border-bottom-0 border-top-0 border-left-0 text-decoration-none"
+            href="#">U.S.</a>
+        </li>
+        <li>
+          <a class="list-group-item py-1 px-2 border-bottom-0 border-top-0 border-left-0 text-decoration-none"
+            href="#">World</a>
+        </li>
+        <li>
+          <a class="list-group-item py-1 px-2 border-bottom-0 border-top-0 border-left-0 text-decoration-none"
+            href="#">Bussines</a>
+        </li>
+        <li>
+          <a class="list-group-item py-1 px-2 border-bottom-0 border-top-0 border-left-0 text-decoration-none"
+            href="#">Tech and Science</a>
+        </li>
+        <li>
+          <a class="list-group-item py-1 px-2 border-bottom-0 border-top-0 border-left-0 text-decoration-none"
+            href="#">Culture</a>
+        </li>
+        <li>
+          <a class="list-group-item py-1 px-2 border-bottom-0 border-top-0 border-left-0 text-decoration-none"
+            href="#">Newsgeek</a>
+        </li>
+        <li>
+          <a class="list-group-item py-1 px-2 border-bottom-0 border-top-0 border-left-0 text-decoration-none"
+            href="#">Health</a>
+        </li>
+        <li>
+          <a class="list-group-item py-1 px-2 border-bottom-0 border-top-0 border-left-0 text-decoration-none"
+            href="#">The Debate</a>
+        </li>
+        <li>
+          <a class="list-group-item py-1 px-2 border-bottom-0 border-top-0 border-left-0 text-decoration-none"
+            href="#">Vantage</a>
+        </li>
+        <li>
+          <a class="list-group-item py-1 px-2 border-bottom-0 border-top-0 border-left-0 text-decoration-none"
+            href="#">Weather</a>
+        </li>
+      </ul>
+      <div class="d-inline-block mt-1">
+        <span class="font-weight-light align-middle">Search</span>
+        <div class="search-img ml-3 d-inline-block align-middle"></div>
+      </div>
+    </div>
+    <hr class="m-0" />
+    <div class="sub-navbar-2-box d-none d-lg-block">
+      <ul class="sub-navbar-2 sub-navbar list-group list-group-horizontal my-2 font-weight-bold">
+        <li>
+          <span class="list-group-item py-1 px-3 border-0 text-decoration-none text-black">TRENDING</span>
+        </li>
+        <li>
+          <a class="list-group-item py-1 px-3 border-0 text-decoration-none" href="#">DONALD TRUMP</a>
+        </li>
+        <li>
+          <a class="list-group-item py-1 px-3 border-0 text-decoration-none" href="#">JOE BIDEN</a>
+        </li>
+        <li>
+          <a class="list-group-item py-1 px-3 border-0 text-decoration-none" href="#">CHINA</a>
+        </li>
+        <li>
+          <a class="list-group-item py-1 px-3 border-0 text-decoration-none" href="#">CORONAVIRUS</a>
+        </li>
+        <li>
+          <a class="list-group-item py-1 px-3 border-0 text-decoration-none" href="#">2020 ELECTION</a>
+        </li>
+      </ul>
+    </div>
+    <hr class="m-0" />
+  </nav>
+
+  <!-- sm version -->
+  <div class="row d-md-none">
+    <div class="col small-container">
+      <!-- TOP STORY -->
+      <div class="col top-story sm-v-section">
+        <h4 class="h-center section-title roboto">TOP STORY</h4>
+        <div class="featured-story h-center">
+          <div class="story-preview">
+            <img
+              src="https://d.newsweek.com/en/full/1638307/anti-racism-protest.jpg?w=591&h=364&f=15bdfa6f8c637bc68db65e7daa5268ef"
+              alt="image" />
+            <span class="tag roboto">WORL</span>
+          </div>
+          <a class="title" href="#">
+            <h5 class="title roboto">
+              The ethnicity pay gap "is costing the British economy as much as
+              £24 billion ($31 billion) a year."
+            </h5>
+          </a>
+          <p class="summary">
+            Multiple YouTubers have tried to raise awareness of the forum in
+            recent weeks, urging their viewers to report the platform's known
+            web domains to law enforcement authorities.
+          </p>
+        </div>
+      </div>
       <!-- FEATURED STORIES -->
-      <div class="featured-stories col-md-6 col-lg-3">
+      <div class="col featured-stories sm-v-section">
         <h4 class="h-center section-title roboto">Featured Stories</h4>
         <div class="featured-story h-center">
           <div class="story-preview">
             <img
               src="https://d.newsweek.com/en/full/1638489/lafayette.jpg?w=397&h=265&q=90&f=4f819f807713f8eded1170346496f538"
-              alt="image"
-            />
+              alt="image" />
             <span class="tag roboto">U.S</span>
           </div>
           <a class="title" href="#">
@@ -789,8 +160,7 @@
           <div class="story-preview">
             <img
               src="https://d.newsweek.com/en/full/1638518/blm-white-protester.jpg?w=397&h=265&q=90&f=5cac0adcbec42d689d1dcda34beecc1b"
-              alt="image"
-            />
+              alt="image" />
             <span class="tag roboto">U.S</span>
           </div>
           <a class="title" href="#">
@@ -799,18 +169,17 @@
             </h5>
           </a>
           <p class="summary">
-            As protests continue across the country against racial injustice and
-            police violence, a new poll shows that the number of overall adults,
-            white adults, and practising Christians who say that race is a
-            problem in the U.S has decreased.
+            As protests continue across the country against racial injustice
+            and police violence, a new poll shows that the number of overall
+            adults, white adults, and practising Christians who say that race
+            is a problem in the U.S has decreased.
           </p>
         </div>
         <div class="featured-story h-center">
           <div class="story-preview">
             <img
               src="	https://d.newsweek.com/en/full/1635416/cuties-netflix.png?w=397&h=265&l=53&t=42&q=90&f=8cdf6202bcc98acac5580a9504efaadb"
-              alt="image"
-            />
+              alt="image" />
             <span class="tag roboto">CULTURE</span>
           </div>
           <a class="title" href="#">
@@ -819,17 +188,16 @@
             </h5>
           </a>
           <p class="summary">
-            "Cuties" may still be one of the top 5 most-watched Netflix movies,
-            but it has also caused some people to cancel their subscriptions
-            according to a new report.
+            "Cuties" may still be one of the top 5 most-watched Netflix
+            movies, but it has also caused some people to cancel their
+            subscriptions according to a new report.
           </p>
         </div>
         <div class="featured-story h-center">
           <div class="story-preview">
             <img
               src="	https://d.newsweek.com/en/full/1638617/joe-biden-endorsement-ncpssm.jpg?w=397&h=265&q=90&f=bc5b109d6072e5bec62c4994be1d764f"
-              alt="image"
-            />
+              alt="image" />
             <span class="tag roboto">U.S</span>
           </div>
           <a class="title" href="#">
@@ -840,23 +208,22 @@
           </a>
           <p class="summary">
             This is the first time that the National Committee to Preserve
-            Social Security and Medicare (NCPSSM), which was founded by the late
-            son of President Franklin Delano Roosevelt, has ever endorsed a
-            candidate for president.
+            Social Security and Medicare (NCPSSM), which was founded by the
+            late son of President Franklin Delano Roosevelt, has ever endorsed
+            a candidate for president.
           </p>
         </div>
         <div class="featured-story h-center">
           <div class="story-preview">
             <img
               src="https://d.newsweek.com/en/full/1638581/stock-man-seated-front-computer.jpg?w=397&h=265&q=90&f=3ccbb6ca275c614340c99a9a0367319d"
-              alt="image"
-            />
+              alt="image" />
             <span class="tag roboto">TECH & SCIENCE</span>
           </div>
           <a class="title" href="#">
             <h5 class="title roboto">
-              Petition Calls for FBI to Investigate Active Pedophile Forum Found
-              Online
+              Petition Calls for FBI to Investigate Active Pedophile Forum
+              Found Online
             </h5>
           </a>
           <p class="summary">
@@ -865,15 +232,139 @@
             web domains to law enforcement authorities.
           </p>
         </div>
-
-        <!-- publicity -->
+      </div>
+      <!-- THE DEBATE -->
+      <div class="col the-debate sm-v-section">
+        <h4 class="h-center section-title roboto">THE DEBATE</h4>
+        <div class="vs-section h-center">
+          <div class="person-card d-flex">
+            <img
+              src="	https://d.newsweek.com/en/full/1635852/jamil-n-jaffer.png?w=150&h=150&f=ee5b9c2a7934dd91670a659078f9bbea"
+              alt="image" />
+            <div class="personal-details">
+              <h5 class="font-weight-bold roboto">
+                The Best (Cyber) Defense Is a Good (Cyber) Offense
+              </h5>
+              <div class="roboto gray-55">
+                BY
+                <span class="roboto font-weight-bold black">JAMIN N.JAFFER</span>
+              </div>
+            </div>
+          </div>
+          <div class="versus-container">
+            <div class="black versus-hr">
+              <span class="roboto">VS</span>
+            </div>
+          </div>
+          <div class="person-card sec-card d-flex">
+            <div class="personal-details text-right">
+              <h5 class="font-weight-bold roboto">
+                The Best (Cyber) Defense Is a Good (Cyber) Offense
+              </h5>
+              <div class="roboto gray-55">
+                BY
+                <span class="roboto font-weight-bold black">JAMIN N.JAFFER</span>
+              </div>
+            </div>
+            <img
+              src="	https://d.newsweek.com/en/full/1635852/jamil-n-jaffer.png?w=150&h=150&f=ee5b9c2a7934dd91670a659078f9bbea"
+              alt="image" />
+          </div>
+        </div>
+      </div>
+      <!-- OPINIONS -->
+      <div class="col opinions sm-v-section">
+        <h4 class="h-center section-title roboto">THE DEBATE</h4>
+        <div class="person-card d-flex">
+          <img
+            src="	https://d.newsweek.com/en/full/1635852/jamil-n-jaffer.png?w=150&h=150&f=ee5b9c2a7934dd91670a659078f9bbea"
+            alt="image" />
+          <div class="personal-details">
+            <h5 class="font-weight-bold roboto">
+              The Best (Cyber) Defense Is a Good (Cyber) Offense
+            </h5>
+            <div class="roboto gray-55 font-weight-bold">
+              BY
+              <span class="roboto gray-55 font-weight-bold">JAMIN N.JAFFER</span>
+            </div>
+          </div>
+        </div>
+        <div class="person-card d-flex">
+          <img
+            src="	https://d.newsweek.com/en/full/1635852/jamil-n-jaffer.png?w=150&h=150&f=ee5b9c2a7934dd91670a659078f9bbea"
+            alt="image" />
+          <div class="personal-details">
+            <h5 class="font-weight-bold roboto">
+              You Don't Have to Be a Democrat to See the Wildfires for What
+              They Are
+            </h5>
+            <div class="roboto gray-55 font-weight-bold">
+              BY
+              <span class="roboto gray-55 font-weight-bold">TODD TANNER</span>
+            </div>
+          </div>
+        </div>
+        <div class="person-card d-flex">
+          <img
+            src="	https://d.newsweek.com/en/full/1635852/jamil-n-jaffer.png?w=150&h=150&f=ee5b9c2a7934dd91670a659078f9bbea"
+            alt="image" />
+          <div class="personal-details">
+            <h5 class="font-weight-bold roboto">
+              For the Sake of Transatlantic Security, Stop Nord Stream 2
+            </h5>
+            <div class="roboto gray-55 font-weight-bold">
+              BY
+              <span class="roboto gray-55 font-weight-bold">114 SIGNATORIES</span>
+            </div>
+          </div>
+        </div>
+        <div class="person-card d-flex">
+          <img
+            src="	https://d.newsweek.com/en/full/1635852/jamil-n-jaffer.png?w=150&h=150&f=ee5b9c2a7934dd91670a659078f9bbea"
+            alt="image" />
+          <div class="personal-details">
+            <h5 class="font-weight-bold roboto">Save Our American System</h5>
+            <div class="roboto gray-55 font-weight-bold">
+              BY
+              <span class="roboto gray-55 font-weight-bold">JENNA ELLIS</span>
+            </div>
+          </div>
+        </div>
+        <div class="person-card d-flex">
+          <img
+            src="	https://d.newsweek.com/en/full/1635852/jamil-n-jaffer.png?w=150&h=150&f=ee5b9c2a7934dd91670a659078f9bbea"
+            alt="image" />
+          <div class="personal-details">
+            <h5 class="font-weight-bold roboto">
+              Kevin McCarthy and the House Republican Commitment to America
+            </h5>
+            <div class="roboto gray-55 font-weight-bold">
+              BY
+              <span class="roboto gray-55 font-weight-bold">NEWT GINGRICHR</span>
+            </div>
+          </div>
+        </div>
+        <div class="person-card d-flex">
+          <img
+            src="	https://d.newsweek.com/en/full/1635852/jamil-n-jaffer.png?w=150&h=150&f=ee5b9c2a7934dd91670a659078f9bbea"
+            alt="image" />
+          <div class="personal-details">
+            <h5 class="font-weight-bold roboto">
+              How the Democratic Party Can Win Back the Trump Base
+            </h5>
+            <div class="roboto gray-55 font-weight-bold">
+              BY
+              <span class="roboto gray-55 font-weight-bold">ARTHUR LIEBER</span>
+            </div>
+          </div>
+        </div>
+      </div>
+      <!-- PUBLICITY -->
+      <div class="col publicity-s sm-v-section">
         <div class="publicity">
           <div class="featured-story h-center">
             <div class="story-preview">
-              <img
-                src="./assets/images/best-online-shops-2021.jpg"
-                alt="image"
-              />
+              <img src="./assets/images/best-online-shops-2021.jpg" alt="image" />
               <span class="sponsored-tag roboto">RANKINGS</span>
             </div>
             <div class="details">
@@ -888,10 +379,7 @@
           </div>
           <div class="featured-story h-center">
             <div class="story-preview">
-              <img
-                src="./assets/images/americas-best-physical-rehabilitation-centers-2020.jpg"
-                alt="image"
-              />
+              <img src="./assets/images/americas-best-physical-rehabilitation-centers-2020.jpg" alt="image" />
               <span class="sponsored-tag roboto">RANKINGS</span>
             </div>
             <div class="details">
@@ -901,23 +389,22 @@
                 </h5>
               </a>
               <p class="summary">
-                Finding reliable rehabilitation can be a challenge. We partnered
-                with Statista to rank the country's Best Physical Rehabilitation
-                Centers.
+                Finding reliable rehabilitation can be a challenge. We
+                partnered with Statista to rank the country's Best Physical
+                Rehabilitation Centers.
               </p>
             </div>
           </div>
           <div class="featured-story h-center">
             <div class="story-preview">
-              <img
-                src="./assets/images/best-maternity-care-hospitals-2020.jpg"
-                alt="image"
-              />
+              <img src="./assets/images/best-maternity-care-hospitals-2020.jpg" alt="image" />
               <span class="sponsored-tag roboto">TAKE THE SURVEY</span>
             </div>
             <div class="details">
               <a class="title" href="#">
-                <h5 class="title roboto">What Brands do You Trust the Most?</h5>
+                <h5 class="title roboto">
+                  What Brands do You Trust the Most?
+                </h5>
               </a>
               <p class="summary">
                 Tell us for a chance to win. 2020 Brandspark Most Trusted
@@ -927,10 +414,7 @@
           </div>
           <div class="featured-story h-center">
             <div class="story-preview">
-              <img
-                src="./assets/images/best-online-shops-2021.jpg"
-                alt="image"
-              />
+              <img src="./assets/images/best-online-shops-2021.jpg" alt="image" />
               <span class="sponsored-tag roboto">RANKINGS</span>
             </div>
             <div class="details"></div>
@@ -938,175 +422,503 @@
               <h5 class="title roboto">Best Maternity Hospitals 2020</h5>
             </a>
             <p class="summary">
-              The facilities cited by Newsweek are an elite group demonstrating
-              excellence in maternity care. Check the full list here
+              The facilities cited by Newsweek are an elite group
+              demonstrating excellence in maternity care. Check the full list
+              here
             </p>
           </div>
+        </div>
+      </div>
+      <!-- MORE STORIES -->
+      <div class="col more-stories-s sm-v-section">
+        <h4 class="h-center section-title roboto">MORE STORIES</h4>
+        <div class="mstory-preview-s d-flex h-center gray-bt">
+          <img src="https://d.newsweek.com/en/full/1638889/biden-obama.jpg?w=95&h=95&f=150feb4010c47e3f031cc05c8fd07ffe"
+            alt="image" />
+          <div class="story-summ-s">
+            <a class="font-weight-bold roboto black fs-17">
+              Obama Book Coming Post-Election Saves Former President
+              Overshadowing Biden
+            </a>
+            <p class="gray-33 fs-13">
+              The first volume of the former president's upcoming memoir is
+              due to be released two weeks after election day.
+            </p>
+          </div>
+        </div>
+        <div class="mstory-preview-s d-flex h-center gray-bt">
+          <img src="https://d.newsweek.com/en/full/1638889/biden-obama.jpg?w=95&h=95&f=150feb4010c47e3f031cc05c8fd07ffe"
+            alt="image" />
+          <div class="story-summ-s">
+            <a class="font-weight-bold roboto black fs-17">
+              Obama Book Coming Post-Election Saves Former President
+              Overshadowing Biden
+            </a>
+            <p class="gray-33 fs-13">
+              The first volume of the former president's upcoming memoir is
+              due to be released two weeks after election day.
+            </p>
+          </div>
+        </div>
+        <div class="mstory-preview-s d-flex h-center gray-bt">
+          <img src="https://d.newsweek.com/en/full/1638889/biden-obama.jpg?w=95&h=95&f=150feb4010c47e3f031cc05c8fd07ffe"
+            alt="image" />
+          <div class="story-summ-s">
+            <a class="font-weight-bold roboto black fs-17">
+              Obama Book Coming Post-Election Saves Former President
+              Overshadowing Biden
+            </a>
+            <p class="gray-33 fs-13">
+              The first volume of the former president's upcoming memoir is
+              due to be released two weeks after election day.
+            </p>
+          </div>
+        </div>
+        <div class="mstory-preview-s d-flex h-center gray-bt">
+          <img src="https://d.newsweek.com/en/full/1638889/biden-obama.jpg?w=95&h=95&f=150feb4010c47e3f031cc05c8fd07ffe"
+            alt="image" />
+          <div class="story-summ-s">
+            <a class="font-weight-bold roboto black fs-17">
+              Obama Book Coming Post-Election Saves Former President
+              Overshadowing Biden
+            </a>
+            <p class="gray-33 fs-13">
+              The first volume of the former president's upcoming memoir is
+              due to be released two weeks after election day.
+            </p>
+          </div>
+        </div>
+        <div class="mstory-preview-s d-flex h-center gray-bt">
+          <img src="https://d.newsweek.com/en/full/1638889/biden-obama.jpg?w=95&h=95&f=150feb4010c47e3f031cc05c8fd07ffe"
+            alt="image" />
+          <div class="story-summ-s">
+            <a class="font-weight-bold roboto black fs-17">
+              Obama Book Coming Post-Election Saves Former President
+              Overshadowing Biden
+            </a>
+            <p class="gray-33 fs-13">
+              The first volume of the former president's upcoming memoir is
+              due to be released two weeks after election day.
+            </p>
+          </div>
+        </div>
+        <div class="mstory-preview-s d-flex h-center gray-bt">
+          <img src="https://d.newsweek.com/en/full/1638889/biden-obama.jpg?w=95&h=95&f=150feb4010c47e3f031cc05c8fd07ffe"
+            alt="image" />
+          <div class="story-summ-s">
+            <a class="font-weight-bold roboto black fs-17">
+              Obama Book Coming Post-Election Saves Former President
+              Overshadowing Biden
+            </a>
+            <p class="gray-33 fs-13">
+              The first volume of the former president's upcoming memoir is
+              due to be released two weeks after election day.
+            </p>
+          </div>
+        </div>
+        <div class="mstory-preview-s d-flex h-center gray-bt">
+          <img src="https://d.newsweek.com/en/full/1638889/biden-obama.jpg?w=95&h=95&f=150feb4010c47e3f031cc05c8fd07ffe"
+            alt="image" />
+          <div class="story-summ-s">
+            <a class="font-weight-bold roboto black fs-17">
+              Obama Book Coming Post-Election Saves Former President
+              Overshadowing Biden
+            </a>
+            <p class="gray-33 fs-13">
+              The first volume of the former president's upcoming memoir is
+              due to be released two weeks after election day.
+            </p>
+          </div>
+        </div>
+        <div class="mstory-preview-s d-flex h-center gray-bt">
+          <img src="https://d.newsweek.com/en/full/1638889/biden-obama.jpg?w=95&h=95&f=150feb4010c47e3f031cc05c8fd07ffe"
+            alt="image" />
+          <div class="story-summ-s">
+            <a class="font-weight-bold roboto black fs-17">
+              Obama Book Coming Post-Election Saves Former President
+              Overshadowing Biden
+            </a>
+            <p class="gray-33 fs-13">
+              The first volume of the former president's upcoming memoir is
+              due to be released two weeks after election day.
+            </p>
+          </div>
+        </div>
+        <div class="mstory-preview-s d-flex h-center gray-bt">
+          <img src="https://d.newsweek.com/en/full/1638889/biden-obama.jpg?w=95&h=95&f=150feb4010c47e3f031cc05c8fd07ffe"
+            alt="image" />
+          <div class="story-summ-s">
+            <a class="font-weight-bold roboto black fs-17">
+              Obama Book Coming Post-Election Saves Former President
+              Overshadowing Biden
+            </a>
+            <p class="gray-33 fs-13">
+              The first volume of the former president's upcoming memoir is
+              due to be released two weeks after election day.
+            </p>
+          </div>
+        </div>
+        <div class="mstory-preview-s d-flex h-center gray-bt">
+          <img src="https://d.newsweek.com/en/full/1638889/biden-obama.jpg?w=95&h=95&f=150feb4010c47e3f031cc05c8fd07ffe"
+            alt="image" />
+          <div class="story-summ-s">
+            <a class="font-weight-bold roboto black fs-17">
+              Obama Book Coming Post-Election Saves Former President
+              Overshadowing Biden
+            </a>
+            <p class="gray-33 fs-13">
+              The first volume of the former president's upcoming memoir is
+              due to be released two weeks after election day.
+            </p>
+          </div>
+        </div>
+        <div class="mstory-preview-s d-flex h-center gray-bt">
+          <img src="https://d.newsweek.com/en/full/1638889/biden-obama.jpg?w=95&h=95&f=150feb4010c47e3f031cc05c8fd07ffe"
+            alt="image" />
+          <div class="story-summ-s">
+            <a class="font-weight-bold roboto black fs-17">
+              Obama Book Coming Post-Election Saves Former President
+              Overshadowing Biden
+            </a>
+            <p class="gray-33 fs-13">
+              The first volume of the former president's upcoming memoir is
+              due to be released two weeks after election day.
+            </p>
+          </div>
+        </div>
+      </div>
+      <!-- MY TURN -->
+      <div class="col my-turn-s sm-v-section">
+        <h4 class="h-center section-title roboto">MY TURN</h4>
+        <div class="my-turn-preview-s m-auto width-93">
+          <img class="w-100"
+            src="	https://d.newsweek.com/en/full/1638516/restaurant-airplane-food-aviation.jpg?w=397&h=397&f=75ee33b1891cde2e809dbedf8d6c6755"
+            alt="image" />
+          <p class="roboto font-weight-bold gray-55">
+            'I Built a Restaurant Inside a Boeing KC-97 U.S. Air Force
+            Aircraft'
+          </p>
+        </div>
+        <div class="my-turn-preview-s">
+          <img class="w-100"
+            src="		https://d.newsweek.com/en/full/1637610/sapiosexuality-relationships-dating.jpg?w=397&h=397&f=a7ea46aff9ee03225f6f068558042209"
+            alt="image" />
+          <p class="roboto font-weight-bold gray-55">
+            "This Is What It's Like to Be Sapiosexual"'
+          </p>
+        </div>
+        <div class="my-turn-preview-s">
+          <img class="w-100"
+            src="https://d.newsweek.com/en/full/1635953/covid-19-coronavirus-vaccine-doctor-trials.jpg?w=397&h=397&f=fbfae1b3743093ddcbe1cbfaba754dfa"
+            alt="image" />
+          <p class="roboto font-weight-bold gray-55">
+            'I'm Working on a COVID-19 Vaccine'
+          </p>
         </div>
       </div>
     </div>
-    <!-- IN THE MAGAZINE -->
-    <section class="in-the-magazine-main-box m-auto">
-      <div
-        class="itm-main-title-box d-flex align-items-center justify-content-center py-2"
-      >
-        <img
-          class="main-title-logo mr-2"
-          src="https://www.newsweek.com/favicon.ico"
-          alt=""
-        />
-        <h6 class="font-weight-bold mb-0">IN THE MAGAZINE</h6>
+  </div>
+  <!-- m&lg version -->
+  <div class="row d-none d-md-block">
+    <!-- FEATURED STORIES -->
+    <div class="featured-stories col-md-6 col-lg-3">
+      <h4 class="h-center section-title roboto">Featured Stories</h4>
+      <div class="featured-story h-center">
+        <div class="story-preview">
+          <img
+            src="https://d.newsweek.com/en/full/1638489/lafayette.jpg?w=397&h=265&q=90&f=4f819f807713f8eded1170346496f538"
+            alt="image" />
+          <span class="tag roboto">U.S</span>
+        </div>
+        <a class="title" href="#">
+          <h5 class="title roboto">
+            Trump Admin Wanted to Use 'Heat Ray' on Protesters
+          </h5>
+        </a>
+        <p class="summary">
+          A military whistleblower said federal officials asked about crowd
+          control technology hours before protesters were forcibly cleared
+          from Lafayette Square in Washington, D.C.
+        </p>
       </div>
-      <hr class="d-none d-md-block mt-0" />
-      <div class="row mb-4">
-        <div class="itm-news-1 col- col-md-3">
-          <div class="itm-items-box position-relative">
-            <div
-              class="itm-text-box font-weight-bold position-absolute fixed-bottom"
-            >
-              <a class="bg-white px-2 m-0" href="#">SEPTEMBER 25 ISSUE</a>
-            </div>
-            <a href="#"
-              ><img
-                class="itm-img-1"
-                src="https://d.newsweek.com/en/full/1638209/cover-september-25-2020.jpg?w=360&h=480&q=90&f=cc57feab77593daf07aa134308d60855"
-                alt="image"
-            /></a>
+      <div class="featured-story h-center">
+        <div class="story-preview">
+          <img
+            src="https://d.newsweek.com/en/full/1638518/blm-white-protester.jpg?w=397&h=265&q=90&f=5cac0adcbec42d689d1dcda34beecc1b"
+            alt="image" />
+          <span class="tag roboto">U.S</span>
+        </div>
+        <a class="title" href="#">
+          <h5 class="title roboto">
+            Number of White Adults Who Think U.S. Has Race Problem Plummets
+          </h5>
+        </a>
+        <p class="summary">
+          As protests continue across the country against racial injustice and
+          police violence, a new poll shows that the number of overall adults,
+          white adults, and practising Christians who say that race is a
+          problem in the U.S has decreased.
+        </p>
+      </div>
+      <div class="featured-story h-center">
+        <div class="story-preview">
+          <img
+            src="	https://d.newsweek.com/en/full/1635416/cuties-netflix.png?w=397&h=265&l=53&t=42&q=90&f=8cdf6202bcc98acac5580a9504efaadb"
+            alt="image" />
+          <span class="tag roboto">CULTURE</span>
+        </div>
+        <a class="title" href="#">
+          <h5 class="title roboto">
+            'Cuties' on Netflix Causes Huge Spike in Netflix Cancelations
+          </h5>
+        </a>
+        <p class="summary">
+          "Cuties" may still be one of the top 5 most-watched Netflix movies,
+          but it has also caused some people to cancel their subscriptions
+          according to a new report.
+        </p>
+      </div>
+      <div class="featured-story h-center">
+        <div class="story-preview">
+          <img
+            src="	https://d.newsweek.com/en/full/1638617/joe-biden-endorsement-ncpssm.jpg?w=397&h=265&q=90&f=bc5b109d6072e5bec62c4994be1d764f"
+            alt="image" />
+          <span class="tag roboto">U.S</span>
+        </div>
+        <a class="title" href="#">
+          <h5 class="title roboto">
+            Fearing for Social Security, National Seniors' Group Endorses
+            Biden
+          </h5>
+        </a>
+        <p class="summary">
+          This is the first time that the National Committee to Preserve
+          Social Security and Medicare (NCPSSM), which was founded by the late
+          son of President Franklin Delano Roosevelt, has ever endorsed a
+          candidate for president.
+        </p>
+      </div>
+      <div class="featured-story h-center">
+        <div class="story-preview">
+          <img
+            src="https://d.newsweek.com/en/full/1638581/stock-man-seated-front-computer.jpg?w=397&h=265&q=90&f=3ccbb6ca275c614340c99a9a0367319d"
+            alt="image" />
+          <span class="tag roboto">TECH & SCIENCE</span>
+        </div>
+        <a class="title" href="#">
+          <h5 class="title roboto">
+            Petition Calls for FBI to Investigate Active Pedophile Forum Found
+            Online
+          </h5>
+        </a>
+        <p class="summary">
+          Multiple YouTubers have tried to raise awareness of the forum in
+          recent weeks, urging their viewers to report the platform's known
+          web domains to law enforcement authorities.
+        </p>
+      </div>
+
+      <!-- publicity -->
+      <div class="publicity">
+        <div class="featured-story h-center">
+          <div class="story-preview">
+            <img src="./assets/images/best-online-shops-2021.jpg" alt="image" />
+            <span class="sponsored-tag roboto">RANKINGS</span>
           </div>
-          <div class="itm-btn">
-            <p class="itm-title roboto title m-0 text-center p-2">
-              SEE ALL FEATURES<i class="fas fa-chevron-right ml-1 black"></i>
+          <div class="details">
+            <a class="title" href="#">
+              <h5 class="title roboto">Best Online Shops 2021</h5>
+            </a>
+            <p class="summary">
+              Newsweek and Statista are recognizing 1,000 shops across 39
+              categories in eight groups.
             </p>
           </div>
         </div>
-        <div class="itm-news-2 col- col-md-3">
-          <div class="itm-items-box">
-            <a href=""
-              ><img
-                class="itm-img"
-                src="https://d.newsweek.com/en/full/1635836/fe-vaccines-banner.jpg?w=466&h=311&l=80&t=46&q=90&f=debe687b53fe81d60d7ae5e0128ca718"
-                alt="image"
-            /></a>
-            <div class="itm-text-box font-weight-bold my-2">
-              <p class="d-inline-block text-white mb-0 p-1">COVER</p>
-              <a class="d-inline-block" href="#">NEWS</a>
-            </div>
-            <a class="itm-title roboto title" href="#"
-              >When Will There Be a COVID-19 Vaccine and Should You Trust That
-              It's Safe?</a
-            >
+        <div class="featured-story h-center">
+          <div class="story-preview">
+            <img src="./assets/images/americas-best-physical-rehabilitation-centers-2020.jpg" alt="image" />
+            <span class="sponsored-tag roboto">RANKINGS</span>
           </div>
-        </div>
-        <div class="itm-news-3 col- col-md-3">
-          <div class="itm-items-box">
-            <a href=""
-              ><img
-                class="itm-img"
-                src="https://d.newsweek.com/en/full/1612946/anthony-fauci-washington-dc-getty.jpg?w=466&h=311&q=90&f=0957fca1e3eb0652c038bd110dace172"
-                alt="image"
-            /></a>
-            <div class="itm-text-box font-weight-bold my-2">
-              <p class="d-inline-block text-white mb-0 p-1">FEATURES</p>
-              <a class="d-inline-block" href="#">NEWS</a>
-            </div>
-            <a class="itm-title roboto title" href="#"
-              >Dr. Fauci Would Bet 10 Cents on Trump Having Vaccine by November,
-              December</a
-            >
-          </div>
-        </div>
-        <div class="itm-news-4 col- col-md-3">
-          <div class="itm-items-box">
-            <a href=""
-              ><img
-                class="itm-img"
-                src=" https://d.newsweek.com/en/full/1631232/florida-representative-donna-shalala.jpg?w=466&h=311&q=90&f=424705d8de9fc652676b8d64d6326b51 "
-                alt="image"
-            /></a>
-            <div class="itm-text-box font-weight-bold my-2">
-              <p class="d-inline-block text-white mb-0 p-1">PERISCOPE</p>
-              <a class="d-inline-block" href="#">POLITICS</a>
-            </div>
-            <a class="itm-title roboto title" href="#">
-              Florida Dem Rep Shalala Admits Squad Sometimes Pisses Her Off,
-              Lets Loose on 'Idiotic' Trump
+          <div class="details">
+            <a class="title" href="#">
+              <h5 class="title roboto">
+                America's Best Physical Rehabilitation Centers 2020
+              </h5>
             </a>
+            <p class="summary">
+              Finding reliable rehabilitation can be a challenge. We partnered
+              with Statista to rank the country's Best Physical Rehabilitation
+              Centers.
+            </p>
           </div>
         </div>
-      </div>
-      <div class="row">
-        <div class="itm-news-5 col- col-md-3">
-          <div class="itm-items-box">
-            <a href=""
-              ><img
-                class="itm-img"
-                src=" 	https://d.newsweek.com/en/full/1638676/per-young-conservatives-01-142740014jpg.jpg?w=466&h=311&l=5&t=30&q=90&f=020fd864b7ad08ff4dc36e7251df4462 "
-                alt="image"
-            /></a>
-            <div class="itm-text-box font-weight-bold my-2">
-              <p class="d-inline-block text-white mb-0 p-1">PERISCOPE</p>
-              <a class="d-inline-block" href="#">CULTURE</a>
-            </div>
-            <a class="itm-title roboto title" href="#">
-              Here Are the Young, Diverse Conservative Stars Progressives Need
-              to Fear
+        <div class="featured-story h-center">
+          <div class="story-preview">
+            <img src="./assets/images/best-maternity-care-hospitals-2020.jpg" alt="image" />
+            <span class="sponsored-tag roboto">TAKE THE SURVEY</span>
+          </div>
+          <div class="details">
+            <a class="title" href="#">
+              <h5 class="title roboto">What Brands do You Trust the Most?</h5>
             </a>
+            <p class="summary">
+              Tell us for a chance to win. 2020 Brandspark Most Trusted
+              Awards. Voted by consumers like you.
+            </p>
           </div>
         </div>
-        <div class="itm-news-6 col- col-md-3">
-          <div class="itm-items-box">
-            <a href=""
-              ><img
-                class="itm-img"
-                src=" https://d.newsweek.com/en/full/1636823/cul-ps-janelle-monae.jpg?w=466&h=311&q=90&f=e21e9535ed00fe89bf74bb5225bc8a1c "
-                alt="image"
-            /></a>
-            <div class="itm-text-box font-weight-bold my-2">
-              <p class="d-inline-block text-white mb-0 p-1">DOWNTIME</p>
-              <a class="d-inline-block" href="#">CULTURE</a>
-            </div>
-            <a class="itm-title roboto title" href="#">
-              Janelle Monáe's Film 'Antebellum' Shows the Horrors of Systemic
-              Racism
-            </a>
+        <div class="featured-story h-center">
+          <div class="story-preview">
+            <img src="./assets/images/best-online-shops-2021.jpg" alt="image" />
+            <span class="sponsored-tag roboto">RANKINGS</span>
           </div>
-        </div>
-        <div class="itm-news-7 col- col-md-3">
-          <div class="itm-items-box">
-            <a href=""
-              ><img
-                class="itm-img"
-                src=" https://d.newsweek.com/en/full/1638671/we-were-warned.jpg?w=480&h=320&q=90&f=b660e84e066bafb63e9300f5db6ce02d "
-                alt="image"
-            /></a>
-            <div class="itm-text-box font-weight-bold my-2">
-              <p class="d-inline-block text-white mb-0 p-1">IN FOCUS</p>
-              <a class="d-inline-block" href="#">NEWS</a>
-            </div>
-            <a class="itm-title roboto title" href="#"> “WE WERE WARNED” </a>
-          </div>
+          <div class="details"></div>
+          <a class="title" href="#">
+            <h5 class="title roboto">Best Maternity Hospitals 2020</h5>
+          </a>
+          <p class="summary">
+            The facilities cited by Newsweek are an elite group demonstrating
+            excellence in maternity care. Check the full list here
+          </p>
         </div>
       </div>
-    </section>
-    <!-- EDITOR'S PICK -->
-    <section class="editors-pick-main-box mx-auto mt-4">
-      <div class="editors-main-title-box d-flex align-items-center justify-content-center py-2">
-          <img class="main-title-logo mr-2" src="https://www.newsweek.com/favicon.ico" alt="">
-          <h6 class="font-weight-bold mb-0">EDITOR'S PICK</h6>
-      </div>
-      <hr class="d-none d-md-block mt-0">
-      <div class="">
-          <div class="editors-news-1 ">
-              <div class="editors-items-box mb-2">  
-                  <div class="editors-text-box position-relative">
-                      <a href="#"><img class="itm-img" src="https://d.newsweek.com/en/full/1638654/barack-michelle-obama.jpg?w=397&h=295&f=1d0323fde9368479d9ea74893087f523"alt="image"/></a>  
-                      <a href=""><span class="tag roboto">CULTURE</span></a>
-                  </div>  
-              </div>
-              <a class="itm-title roboto title" href="#">When Will There Be a COVID-19 Vaccine and Should You Trust That It's Safe?</a>    
-              <p class="editors-text mt-2">The ethnicity pay gap "is costing the British economy as much as £24 billion ($31 billion) a year."</p>
+    </div>
+  </div>
+  <!-- IN THE MAGAZINE -->
+  <section class="in-the-magazine-main-box m-auto">
+    <div class="itm-main-title-box d-flex align-items-center justify-content-center py-2">
+      <img class="main-title-logo mr-2" src="https://www.newsweek.com/favicon.ico" alt="" />
+      <h6 class="font-weight-bold mb-0">IN THE MAGAZINE</h6>
+    </div>
+    <hr class="d-none d-md-block mt-0" />
+    <div class="row mb-4">
+      <div class="itm-news-1 col- col-md-3">
+        <div class="itm-items-box position-relative">
+          <div class="itm-text-box font-weight-bold position-absolute fixed-bottom">
+            <a class="bg-white px-2 m-0" href="#">SEPTEMBER 25 ISSUE</a>
           </div>
+          <a href="#"><img class="itm-img-1"
+              src="https://d.newsweek.com/en/full/1638209/cover-september-25-2020.jpg?w=360&h=480&q=90&f=cc57feab77593daf07aa134308d60855"
+              alt="image" /></a>
+        </div>
+        <div class="itm-btn">
+          <p class="itm-title roboto title m-0 text-center p-2">
+            SEE ALL FEATURES<i class="fas fa-chevron-right ml-1 black"></i>
+          </p>
+        </div>
       </div>
-    </section>
-  </body>
+      <div class="itm-news-2 col- col-md-3">
+        <div class="itm-items-box">
+          <a href=""><img class="itm-img"
+              src="https://d.newsweek.com/en/full/1635836/fe-vaccines-banner.jpg?w=466&h=311&l=80&t=46&q=90&f=debe687b53fe81d60d7ae5e0128ca718"
+              alt="image" /></a>
+          <div class="itm-text-box font-weight-bold my-2">
+            <p class="d-inline-block text-white mb-0 p-1">COVER</p>
+            <a class="d-inline-block" href="#">NEWS</a>
+          </div>
+          <a class="itm-title roboto title" href="#">When Will There Be a COVID-19 Vaccine and Should You Trust That
+            It's Safe?</a>
+        </div>
+      </div>
+      <div class="itm-news-3 col- col-md-3">
+        <div class="itm-items-box">
+          <a href=""><img class="itm-img"
+              src="https://d.newsweek.com/en/full/1612946/anthony-fauci-washington-dc-getty.jpg?w=466&h=311&q=90&f=0957fca1e3eb0652c038bd110dace172"
+              alt="image" /></a>
+          <div class="itm-text-box font-weight-bold my-2">
+            <p class="d-inline-block text-white mb-0 p-1">FEATURES</p>
+            <a class="d-inline-block" href="#">NEWS</a>
+          </div>
+          <a class="itm-title roboto title" href="#">Dr. Fauci Would Bet 10 Cents on Trump Having Vaccine by November,
+            December</a>
+        </div>
+      </div>
+      <div class="itm-news-4 col- col-md-3">
+        <div class="itm-items-box">
+          <a href=""><img class="itm-img"
+              src=" https://d.newsweek.com/en/full/1631232/florida-representative-donna-shalala.jpg?w=466&h=311&q=90&f=424705d8de9fc652676b8d64d6326b51 "
+              alt="image" /></a>
+          <div class="itm-text-box font-weight-bold my-2">
+            <p class="d-inline-block text-white mb-0 p-1">PERISCOPE</p>
+            <a class="d-inline-block" href="#">POLITICS</a>
+          </div>
+          <a class="itm-title roboto title" href="#">
+            Florida Dem Rep Shalala Admits Squad Sometimes Pisses Her Off,
+            Lets Loose on 'Idiotic' Trump
+          </a>
+        </div>
+      </div>
+    </div>
+    <div class="row">
+      <div class="itm-news-5 col- col-md-3">
+        <div class="itm-items-box">
+          <a href=""><img class="itm-img"
+              src=" 	https://d.newsweek.com/en/full/1638676/per-young-conservatives-01-142740014jpg.jpg?w=466&h=311&l=5&t=30&q=90&f=020fd864b7ad08ff4dc36e7251df4462 "
+              alt="image" /></a>
+          <div class="itm-text-box font-weight-bold my-2">
+            <p class="d-inline-block text-white mb-0 p-1">PERISCOPE</p>
+            <a class="d-inline-block" href="#">CULTURE</a>
+          </div>
+          <a class="itm-title roboto title" href="#">
+            Here Are the Young, Diverse Conservative Stars Progressives Need
+            to Fear
+          </a>
+        </div>
+      </div>
+      <div class="itm-news-6 col- col-md-3">
+        <div class="itm-items-box">
+          <a href=""><img class="itm-img"
+              src=" https://d.newsweek.com/en/full/1636823/cul-ps-janelle-monae.jpg?w=466&h=311&q=90&f=e21e9535ed00fe89bf74bb5225bc8a1c "
+              alt="image" /></a>
+          <div class="itm-text-box font-weight-bold my-2">
+            <p class="d-inline-block text-white mb-0 p-1">DOWNTIME</p>
+            <a class="d-inline-block" href="#">CULTURE</a>
+          </div>
+          <a class="itm-title roboto title" href="#">
+            Janelle Monáe's Film 'Antebellum' Shows the Horrors of Systemic
+            Racism
+          </a>
+        </div>
+      </div>
+      <div class="itm-news-7 col- col-md-3">
+        <div class="itm-items-box">
+          <a href=""><img class="itm-img"
+              src=" https://d.newsweek.com/en/full/1638671/we-were-warned.jpg?w=480&h=320&q=90&f=b660e84e066bafb63e9300f5db6ce02d "
+              alt="image" /></a>
+          <div class="itm-text-box font-weight-bold my-2">
+            <p class="d-inline-block text-white mb-0 p-1">IN FOCUS</p>
+            <a class="d-inline-block" href="#">NEWS</a>
+          </div>
+          <a class="itm-title roboto title" href="#"> “WE WERE WARNED” </a>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!-- EDITOR'S PICK -->
+  <section class="editors-pick-main-box mx-auto mt-4">
+    <div class="editors-main-title-box d-flex align-items-center justify-content-center py-2">
+      <img class="main-title-logo mr-2" src="https://www.newsweek.com/favicon.ico" alt="">
+      <h6 class="font-weight-bold mb-0">EDITOR'S PICK</h6>
+    </div>
+    <hr class="d-none d-md-block mt-0">
+    <div class="">
+      <div class="editors-news-1 ">
+        <div class="editors-items-box mb-2">
+          <div class="editors-text-box position-relative">
+            <a href="#"><img class="itm-img"
+                src="https://d.newsweek.com/en/full/1638654/barack-michelle-obama.jpg?w=397&h=295&f=1d0323fde9368479d9ea74893087f523"
+                alt="image" /></a>
+            <a href=""><span class="tag roboto">CULTURE</span></a>
+          </div>
+        </div>
+        <a class="itm-title roboto title" href="#">When Will There Be a COVID-19 Vaccine and Should You Trust That It's
+          Safe?</a>
+        <p class="editors-text mt-2">The ethnicity pay gap "is costing the British economy as much as £24 billion ($31
+          billion) a year."</p>
+      </div>
+    </div>
+  </section>
+</body>
+
 </html>
