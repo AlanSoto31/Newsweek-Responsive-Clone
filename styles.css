@@ -5,6 +5,15 @@
   font-family: sans-serif;
   list-style: none;
   box-sizing: border-box;
+  ;
+}
+
+.whole-container {
+  max-width: 1400px;
+}
+
+.body {
+  background-color: #f4f5f7;
 }
 
 a {
@@ -416,6 +425,8 @@ footer ul li {
 @media (min-width: 1024px) {
   .navbar-main-title {
     font-size: 80px;
+    font-family: 'Patua One',
+      cursive;
   }
 
   .itm-img {
