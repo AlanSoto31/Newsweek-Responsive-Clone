@@ -76,8 +76,12 @@ a {
   background: #F4F5F6;
 }
 
+.fs-20 {
+  font-size: 20px;
+}
+
 .orange {
-  background: #F72210;
+  color: #F72210;
 }
 
 .section-title {
@@ -336,10 +340,6 @@ footer ul li {
   background: #f72210;
 }
 
-.itm-text-box a {
-  color: #f72210;
-}
-
 .itm-title:hover {
   color: black;
   text-decoration: underline !important;
@@ -371,6 +371,14 @@ footer ul li {
   color: #f72210;
 }
 
+.itm-text-box a:hover  {
+  color: #F72210;
+}
+
+.editors-text-box a:hover  {
+  color: #F72210;
+}
+
 /* Subscribe section */
 
 .book-imgs {
@@ -392,17 +400,21 @@ footer ul li {
   transform: translate(-42.5px, 15px);
 }
 
+.nl-img {
+  height: 258px;
+  object-fit: cover;
+}
+
 /* Media Queries */
 
 @media (max-width: 767px) {
   .book-title-box {
-    position: absolute;
-    text-align: center;
-    top: 230px;
+      position: absolute;
+      text-align: center;
+      top: 230px;
   }
-
-  .book-text-box {
-    text-align: center;
+  .book-text-box, .nl-text-box {
+      text-align: center;
   }
 }
 
@@ -424,26 +436,16 @@ footer ul li {
   }
 }
 
-@media (min-width: 1024px) {
-  .navbar-main-title {
-    font-size: 80px;
-  }
-
-  .itm-img {
-    height: 215px;
-  }
-
-  .ep-img {
-    height: 146px;
-  }
+@media (min-width: 1024px) {  
+  .navbar-main-title {font-size:80px;}
+  .itm-img {height: 215px;}
+  .ep-img {height: 146px;} 
+  .nl-img {height: 330px;}
+  .nl-btn {font-size:14px !important;}
 }
 
-@media (min-width: 1440px) {
-  .itm-img {
-    height: 300px;
-  }
-
-  .ep-img {
-    height: 194px;
-  }
+@media (min-width: 1440px) {  
+  .itm-img {height: 300px;} 
+  .ep-img {height: 194px;} 
+  .nl-img {height: 305px;}   
 }
