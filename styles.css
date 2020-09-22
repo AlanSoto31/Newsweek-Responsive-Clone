@@ -269,6 +269,12 @@ a {
   display: inline-block;
 }
 
+.mstory-preview-lg img {
+  height: 96px;
+  float: left;
+  margin-right: 8px;
+}
+
 .substory {
   display: inline-block;
 }
@@ -279,9 +285,7 @@ a {
 }
 
 .nw-logo {
-  font-family:
-    'Patua One',
-    cursive;
+  font-family: "Patua One", cursive;
   color: #f72210;
   font-size: 40px;
 }
@@ -438,9 +442,7 @@ footer ul li {
 @media (min-width: 1024px) {
   .navbar-main-title {
     font-size: 80px;
-    font-family:
-      'Patua One',
-      cursive;
+    font-family: "Patua One", cursive;
   }
 
   .itm-img {
@@ -476,5 +478,4 @@ footer ul li {
   .sub-navbar-1 {
     font-size: 17px;
   }
-
 }
