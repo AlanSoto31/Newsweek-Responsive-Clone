@@ -5,7 +5,6 @@
   font-family: sans-serif;
   list-style: none;
   box-sizing: border-box;
-  ;
 }
 
 .whole-container {
@@ -368,18 +367,20 @@ footer ul li {
   color: gray;
 }
 
+.itm-text-box a:hover {
+  color: #f72210;
+}
+
+.editors-text-box a:hover {
+  color: #f72210;
+}
+
 .sub-navbar li a:hover {
   color: #f72210;
 }
 
 
-.itm-text-box a:hover {
-  color: #F72210;
-}
 
-.editors-text-box a:hover {
-  color: #F72210;
-}
 
 /* Subscribe section */
 
@@ -443,7 +444,8 @@ footer ul li {
 @media (min-width: 1024px) {
   .navbar-main-title {
     font-size: 80px;
-    font-family: 'Patua One',
+    font-family:
+      'Patua One',
       cursive;
   }
 
