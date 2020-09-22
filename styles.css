@@ -266,6 +266,44 @@ a {
   display: inline-block;
 }
 
+/* FOOTER */
+.footer {
+  height: 200px;
+}
+
+.nw-logo {
+  font-family: 'Patua One',
+    cursive;
+  color: #F72210;
+  font-size: 40px;
+}
+
+.copyright {
+  font-size: 12px;
+  line-height: 12px;
+  text-transform: uppercase;
+  color: #666;
+  margin-bottom: 12px;
+  bottom: 0;
+}
+
+.fab {
+  margin-bottom: 12px;
+  color: #666;
+  font-size: 150%;
+  margin-right: 7px;
+}
+
+.gray-66 {
+  color: #666;
+}
+
+footer ul li {
+  font-size: 12px;
+}
+
+
+
 /*    ALAN     */
 
 .black {
@@ -358,29 +396,54 @@ a {
 
 @media (max-width: 767px) {
   .book-title-box {
-      position: absolute;
-      text-align: center;
-      top: 230px;
+    position: absolute;
+    text-align: center;
+    top: 230px;
   }
+
   .book-text-box {
-      text-align: center;
+    text-align: center;
   }
 }
 
-@media (min-width: 768px) {  
-  .itm-img {height: 178px;}
-  .ep-img {height: 236px;}
-  .float-left-md {float: left;}
-  .book-title {font-size:20px}
+@media (min-width: 768px) {
+  .itm-img {
+    height: 178px;
+  }
+
+  .ep-img {
+    height: 236px;
+  }
+
+  .float-left-md {
+    float: left;
+  }
+
+  .book-title {
+    font-size: 20px
+  }
 }
 
-@media (min-width: 1024px) {  
-  .navbar-main-title {font-size:80px;}
-  .itm-img {height: 215px;}
-  .ep-img {height: 146px;} 
+@media (min-width: 1024px) {
+  .navbar-main-title {
+    font-size: 80px;
+  }
+
+  .itm-img {
+    height: 215px;
+  }
+
+  .ep-img {
+    height: 146px;
+  }
 }
 
-@media (min-width: 1440px) {  
-  .itm-img {height: 300px;} 
-  .ep-img {height: 194px;}    
+@media (min-width: 1440px) {
+  .itm-img {
+    height: 300px;
+  }
+
+  .ep-img {
+    height: 194px;
+  }
 }
