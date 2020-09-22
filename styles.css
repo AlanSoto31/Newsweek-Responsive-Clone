@@ -73,11 +73,11 @@ a {
 }
 
 .bc-gray {
-  background: #F4F5F6;
+  background: #f4f5f6;
 }
 
 .orange {
-  background: #F72210;
+  background: #f72210;
 }
 
 .section-title {
@@ -106,6 +106,21 @@ a {
 .featured-story img {
   width: 100%;
   object-fit: cover;
+}
+
+.itm-text-box a,
+.editors-text-box a {
+  color: #f72210;
+}
+
+.mstory-preview-s img {
+  height: 96px;
+  float: left;
+  margin-right: 8px;
+}
+
+.person-card img {
+  height: 60px;
 }
 
 .publicity .featured-story img {
@@ -166,10 +181,6 @@ a {
   padding-bottom: 10px;
 }
 
-.person-card img {
-  height: 60px;
-}
-
 .personal-details div {
   font-size: 14px;
 }
@@ -205,11 +216,6 @@ a {
   height: 20px;
 }
 
-.sec-card {
-  width: 70%;
-  margin-left: auto;
-}
-
 .opinions .person-card {
   border-bottom: rgba(3, 3, 3, 0.4) solid 1px;
 }
@@ -223,11 +229,6 @@ a {
   padding-top: 15px;
 }
 
-.mstory-preview-s img {
-  height: 96px;
-  float: left;
-  margin-right: 8px;
-}
 
 /* SIGN UP */
 .signup {
@@ -235,8 +236,9 @@ a {
   overflow: hidden;
 }
 
-/*MEDIUM*/
-/* MY TURN*/
+/* MEDIUM */
+
+/* MY TURN */
 .mstory-preview-m {
   line-height: 20px;
 }
@@ -256,12 +258,6 @@ a {
   display: inline-block;
 }
 
-.mstory-preview-lg img {
-  height: 96px;
-  float: left;
-  margin-right: 8px;
-}
-
 .substory {
   display: inline-block;
 }
@@ -272,9 +268,10 @@ a {
 }
 
 .nw-logo {
-  font-family: 'Patua One',
+  font-family:
+    'Patua One',
     cursive;
-  color: #F72210;
+  color: #f72210;
   font-size: 40px;
 }
 
@@ -336,10 +333,6 @@ footer ul li {
   background: #f72210;
 }
 
-.itm-text-box a {
-  color: #f72210;
-}
-
 .itm-title:hover {
   color: black;
   text-decoration: underline !important;
@@ -366,10 +359,6 @@ footer ul li {
   color: #f72210;
 }
 
-.itm-text-box a,
-.editors-text-box a {
-  color: #f72210;
-}
 
 /* Subscribe section */
 
@@ -420,7 +409,7 @@ footer ul li {
   }
 
   .book-title {
-    font-size: 20px
+    font-size: 20px;
   }
 }
 
