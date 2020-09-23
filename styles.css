@@ -453,8 +453,8 @@ footer ul li {
     height: 330px;
   }
 
-  .nl-btn {
-    font-size: 14px !important;
+  .nl-btn-fs-14 {
+    font-size: 14px;
   }
 }
 
