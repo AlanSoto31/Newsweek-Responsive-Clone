@@ -1,0 +1,477 @@
+* {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-family: sans-serif;
+  list-style: none;
+  box-sizing: border-box;
+}
+
+.whole-container {
+  max-width: 1400px;
+}
+
+.body {
+  background-color: #f4f5f7;
+}
+
+.wheather-img {
+  width: 20px;
+  height: 20px;
+  background-image: url(https://g.newsweek.com/img/weather/26.png);
+  background-position: center center;
+  background-size: cover;
+}
+
+.search-img {
+  width: 25px;
+  height: 25px;
+  background-image: url(https://g.newsweek.com/www/images/icon-search-glass.svg);
+  background-position: center center;
+  background-size: cover;
+}
+
+.roboto {
+  font-family: "Roboto Condensed", sans-serif;
+}
+
+.h-center {
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.width-93 {
+  width: 93%;
+}
+
+.marg-10 {
+  margin: 10px;
+}
+
+.bc-white {
+  background-color: white;
+}
+
+.gray-33 {
+  color: #333;
+}
+
+.fs-17 {
+  font-size: 17px;
+}
+
+.fs-13 {
+  font-size: 13px;
+}
+
+.fs-22 {
+  font-size: 22px;
+}
+
+.as-center {
+  align-self: center;
+}
+
+.gray-bt {
+  border-top: solid #555 1px;
+}
+
+.bc-gray {
+  background: #f4f5f6;
+}
+
+.fs-20 {
+  font-size: 20px;
+}
+
+.orange {
+  color: #f72210;
+}
+
+.section-title {
+  color: rgba(3, 3, 3, 0.4);
+  font-weight: 600;
+  font-size: 20px;
+}
+
+.title {
+  font-weight: bold;
+  font-size: 20px;
+  line-height: 20px;
+  margin-top: 10px;
+}
+
+.summary {
+  color: #333;
+  line-height: 18px;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.featured-story {
+  margin-top: 25px;
+}
+
+.featured-story img {
+  width: 100%;
+  object-fit: cover;
+}
+
+.itm-text-box a,
+.editors-text-box a {
+  color: #f72210;
+}
+
+.mstory-preview-s img {
+  height: 96px;
+  float: left;
+  margin-right: 8px;
+}
+
+.person-card img {
+  height: 60px;
+}
+
+.mstory-preview-lg img {
+  height: 96px;
+  float: left;
+  margin-right: 8px;
+}
+
+.publicity .featured-story img {
+  width: 100%;
+  height: 196px;
+  object-fit: cover;
+}
+
+.tag {
+  padding: 5px 20px;
+  color: red;
+  position: absolute;
+  z-index: 1;
+  bottom: 0;
+  left: 0;
+  opacity: 0.8;
+  font-weight: bold;
+}
+
+.sponsored-tag {
+  color: #3581f4;
+  font-weight: bold;
+  padding: 5px 20px;
+  position: absolute;
+  z-index: 1;
+  bottom: 0;
+  left: 0;
+  opacity: 0.8;
+}
+
+.story-preview {
+  position: relative;
+}
+
+.details {
+  border: 1px solid #e6e6e6;
+  padding: 20px;
+}
+
+/***********  NATA  *****************/
+.small-container {
+  background-color: #f4f5f7;
+}
+
+.sm-v-section {
+  padding: 20px;
+  margin-top: 20px;
+}
+
+/* TOP STORY SM */
+.top-story {
+  margin-top: 0;
+}
+
+/* THE DEBATE SM */
+.the-debate h4 {
+  border-bottom: rgba(3, 3, 3, 0.4) solid 3px;
+  padding-bottom: 10px;
+}
+
+.personal-details div {
+  font-size: 14px;
+}
+
+.the-debate .personal-details h5 {
+  font-size: 17px;
+}
+
+.gray-55 {
+  color: #555;
+}
+
+.versus-hr {
+  height: 5px;
+  border-top: solid #555 1px;
+  border-bottom: solid #555 1px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.versus-hr span {
+  position: absolute;
+  background-color: black;
+  color: white;
+  padding: 7px 10px;
+  border-radius: 50%;
+  left: 50%;
+}
+
+.versus-container {
+  position: relative;
+  height: 20px;
+}
+
+.opinions .person-card {
+  border-bottom: rgba(3, 3, 3, 0.4) solid 1px;
+}
+
+.opinions .personal-details div {
+  margin-left: 0;
+}
+
+/* MORE STORIES SM */
+.mstory-preview-s {
+  padding-top: 15px;
+}
+
+/* SIGN UP */
+.signup {
+  background-color: #f4f5f6;
+  overflow: hidden;
+}
+
+/* MEDIUM */
+
+/* MY TURN */
+.mstory-preview-m {
+  line-height: 20px;
+}
+
+.sec-card {
+  width: 70%;
+  margin-left: auto;
+  border-bottom: rgba(3, 3, 3, 0.4) solid 3px;
+  justify-content: flex-end;
+}
+
+.my-turn-preview-m .story-preview span {
+  padding: 0 5px;
+}
+
+.mstory-preview-lg {
+  display: inline-block;
+}
+
+.substory {
+  display: inline-block;
+}
+
+/* FOOTER */
+.footer {
+  height: 200px;
+}
+
+.nw-logo {
+  font-family: "Patua One", cursive;
+  color: #f72210;
+  font-size: 40px;
+}
+
+.copyright {
+  font-size: 12px;
+  line-height: 12px;
+  text-transform: uppercase;
+  color: #666;
+  margin-bottom: 12px;
+  bottom: 0;
+}
+
+.fab {
+  margin-bottom: 12px;
+  color: #666;
+  font-size: 150%;
+  margin-right: 7px;
+}
+
+.gray-66 {
+  color: #666;
+}
+
+footer ul li {
+  font-size: 12px;
+}
+
+/*    ALAN     */
+
+.black {
+  color: black;
+}
+
+.main-title-logo {
+  width: 30px;
+  height: 30px;
+}
+
+.itm-btn {
+  background: #f4f5f6;
+  cursor: pointer;
+}
+
+.itm-btn:hover {
+  background: #dbdcdd;
+}
+
+.itm-img,
+.itm-img-1,
+.ep-img,
+.bigs-img {
+  width: 100%;
+  object-fit: cover;
+}
+
+.itm-text-box p {
+  background: #f72210;
+}
+
+.itm-title:hover {
+  color: black;
+  text-decoration: underline !important;
+  text-decoration-color: #f72210 !important;
+}
+
+.smalls-img {
+  height: 95px;
+  width: 95px;
+  object-fit: cover;
+}
+
+/* position chaged  */
+
+.sub-navbar li a {
+  color: black;
+}
+
+.sub-navbar-2 li a {
+  color: gray;
+}
+
+.itm-text-box a:hover {
+  color: #f72210;
+}
+
+.editors-text-box a:hover {
+  color: #f72210;
+}
+
+.sub-navbar li a:hover {
+  color: #f72210;
+}
+
+/* Subscribe section */
+
+.book-imgs {
+  text-align: center;
+  height: 227px;
+  width: 170px;
+  object-fit: cover;
+}
+
+.book-imgs-box {
+  height: 250px;
+}
+
+.book-img-1 {
+  transform: translate(42.5px);
+}
+
+.book-img-2 {
+  transform: translate(-42.5px, 15px);
+}
+
+.nl-img {
+  height: 258px;
+  object-fit: cover;
+}
+
+/* Media Queries */
+
+@media (max-width: 767px) {
+  .book-title-box {
+    position: absolute;
+    text-align: center;
+    top: 230px;
+  }
+
+  .book-text-box,
+  .nl-text-box {
+    text-align: center;
+  }
+}
+
+@media (min-width: 768px) {
+  .itm-img {
+    height: 178px;
+  }
+
+  .ep-img {
+    height: 236px;
+  }
+
+  .float-left-md {
+    float: left;
+  }
+
+  .book-title {
+    font-size: 20px;
+  }
+}
+
+@media (min-width: 1024px) {
+  .navbar-main-title {
+    font-size: 80px;
+    font-family: "Patua One", cursive;
+  }
+
+  .itm-img {
+    height: 215px;
+  }
+
+  .ep-img {
+    height: 146px;
+  }
+
+  .nl-img {
+    height: 330px;
+  }
+
+  .nl-btn-fs-14 {
+    font-size: 14px;
+  }
+}
+
+@media (min-width: 1440px) {
+  .itm-img {
+    height: 300px;
+  }
+
+  .ep-img {
+    height: 194px;
+  }
+
+  .nl-img {
+    height: 305px;
+  }
+
+  .sub-navbar-1 {
+    font-size: 17px;
+  }
+}
